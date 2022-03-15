@@ -1,0 +1,203 @@
+{
+    "levelNumber": 6,
+    "addX": 182,
+    "addY": 194,
+    "princess_message": "Very well done!\n\nYou are getting stronger!\nIt's time to work on accuracy\nand add some more\nshortcuts to your toolbox!\n\nGo on!",
+    "bg": ["wwgg.ggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwgg.ggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwgg.ggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwgg.ggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwg.gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "ww+++++++++++++++++++++++wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "ww+++++++++++++++++++++++wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "ww+++++++++++++++++++++wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "ww+++++++++++++++++++++wwwwwwwww++++++++++++++++++wwwwwwwwwwwwwwwww", "ww++++++++++++++++++++++++wwwwww++++++++++++++++wwwwwwwwwwwwwwwwwww", "ww++++++++++++++++++++++++++wggg++++++++++++++++wwwwwwwwwwwwwwwwwww", "ww++++++++++++++++++++++++++wg..++++++++++++++++++++wwwwwwwwwwwwwww", "ww+++++++++++++++++++++++++wwg.g++++++++++++++++++++wwwwwwwwwwwwwww", "wwwg.gwwwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwg.gwwwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwww", "wwwg.gwwwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwww", "wwwg.gwwwwwwwwwwwwwwwwgggggggg.gwwwwwwwwwwwwwwwwwwwwwwww", "wwwg.gwwwwwwwwwwwwwwwwg........gwwwwwwwwwwwwwwwwwwwwwwww", "wwwg.gwwwwwwwwwwwwwwwwg.gggg.ggg+w+++w+++++++w++++wwwwww", "wwwg.gwwwwwwwwwwwwwwwwg.gwwg.ggg+w+++w+++++++++ww+w+wwwwwwwww  w w", "wwwg.ggggggggggggggggwg.gwwg....+w+++w+++++++++wwww++wwwwwwwwwwwwww", "wwwg.g++++++++++++++gwg.gwwggggg+w+++w+++++++wwwww++++wwwwwwwwwwwww", "wwwg..++++++++++++++gwg.gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwg.g++++++++++++++gwg.ggggggggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwg.g++++++++++++++gwg........gwwww++++++++++++++++++++wwwwwwwwww", "wwwg.ggggggggggggggggwg.gggggg.gwwww++++++++++++++++++++++wwwwwwww", "wwwg.gwwwwwwwwwwwwwwwwg.gwwwwS.Sgggg+wwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwg.gwwwwwwwwwwwwwwwwg.gwwwwg......+++++++++++++++++++++wwwwwww", "wwwg+wwwwwwwwwwwwwwwwww+gwwwwg.ggggg+wwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwg.wwwwwwwwwwwwwwwwwwwwwwwwg.gwwww++++++++++++++wwwwwwwwwwwwww", "wwwg.gwwwwwwwwwwwwwwwwwwwwwwwg.gwwww+++++++++++++++++++++++wwwww", "wwwg.gwwwwwwwwwwwwwwwwwwwwwwwg.gwwww++++++++++++++++++++wwwwwwww", "wwwg++++++++++++++++++++++++wg.gwwww+wwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwg+++++++++++++++++++++++wwg.gwwww++++++++++++++++++++++++++www", "wwwg++++++++++++++++++++++++wg.gwwww+++++++++++++++++++wwwwwwwww", "wwwgggwwwwwwwwwwwwwwwwwwwwwwwg.gwwww++++++++++++++++++++wwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwg.gwwww+wwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwww++++++++++++++++++++++wwwwwwwwwwwwwwwwwwwwwwww  w", "wwwwwwwwwwwwwwwwww++++++++++++++++++++++wwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwww++++++++++++++++++++++++wwwwwwwwwwwwwwwwwwwwwww", "  ww           wwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "  ww               ww w     wS.Sw    wwwwwwwwwwwwwwwwwwwwwwwwwwww", "  ww                w       wS.Sw    wwwwwwwwwwwwwwwwwwwwwwwwwww", "   w                w       ws.sw    wwwwwwwwwwwwwwwwwwwwwwwwwww", "   w                        ws.sw    wwwwwwwwwwwwwwwwwwwwwwwwwww", "                            wsssw                 w    w", "                            wwwww", "                               ww"],
+    "entities": [{
+        "type": "tall_tree",
+        "x": 29,
+        "y": 19,
+        "invisible": false
+    }, {
+        "type": "keyboard_key",
+        "x": 6,
+        "y": 21,
+        "character": "~",
+        "invisible": true
+    }, {
+        "type": "yellow_key",
+        "x": 14,
+        "y": 9,
+        "invisible": true
+    }, {
+        "type": "keyboard_key",
+        "x": 7,
+        "y": 33,
+        "character": "$",
+        "invisible": true
+    }, {
+        "type": "keyboard_key",
+        "x": 43,
+        "y": 8,
+        "character": "0",
+        "invisible": true
+    }, {
+        "type": "keyboard_key",
+        "x": 41,
+        "y": 20,
+        "character": "^",
+        "invisible": true
+    }, {
+        "type": "boy",
+        "x": 33,
+        "y": 26,
+        "data": {
+            "name": "dDollarAndD_boy",
+            "message": "d$ is so common it has its own\nshortcut: D . Try it out!\nOh, and dd deletes an entire line\nregardless where the cursor is."
+        }
+    }, {
+        "type": "door",
+        "x": 30,
+        "y": 26,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 30,
+        "y": 39,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 29,
+        "y": 40,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 29,
+        "y": 39,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 29,
+        "y": 38,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 31,
+        "y": 39,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 31,
+        "y": 40,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 30,
+        "y": 40,
+        "invisible": false
+    }, {
+        "type": "door",
+        "x": 30,
+        "y": 42,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 32,
+        "y": 38,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 32,
+        "y": 40,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 31,
+        "y": 38,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 28,
+        "y": 38,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 28,
+        "y": 40,
+        "invisible": false
+    }, {
+        "type": "door",
+        "x": 30,
+        "y": 43,
+        "invisible": false
+    }, {
+        "type": "yellow_key",
+        "x": 39,
+        "y": 38,
+        "invisible": true
+    }, {
+        "type": "yellow_key",
+        "x": 36,
+        "y": 28,
+        "invisible": true
+    }, {
+        "type": "princess",
+        "x": 30,
+        "y": 45,
+        "data": {
+            "name": "level_6_princess",
+            "levelToLoad": 7,
+            "message": "Well done Shadowy One!\nTo be continued..."
+        }
+    }, {
+        "type": "pink_girl",
+        "x": 3,
+        "y": 24,
+        "data": {
+            "name": "captialX_girl",
+            "message": "You already know that\nx acts like delete,\nbut did you know that\nX is like backspace???\n\nUse it to save keystrokes!"
+        }
+    }],
+    "textareas": [{
+        "x": 34,
+        "y": 20,
+        "text": "\n",
+        "limit": 0
+    }, {
+        "x": 4,
+        "y": 32,
+        "limit": 17,
+        "text": "^rBbegin at^xe the beginning,\nand go on till you come\nto the ^xsend: then s^rtlop^xe."
+    }, {
+        "x": 6,
+        "y": 21,
+        "limit": 12,
+        "text": "~ is where the\n^rhbear^rtd is AND  \nit also ^rfslips \nletter case!  ",
+        "shouldClean": " "
+    }, {
+        "x": 4,
+        "y": 28,
+        "limit": 0,
+        "text": "Shaken, not stirred!"
+    }, {
+        "x": 2,
+        "y": 5,
+        "limit": 10,
+        "text": "Some texts, if you dare\nNeed handling with care\nNo keystroke to spare\nThis warning I share:\nWhen fixing, don't stare\nWatch the counter up there\nOr else you might ^dasdf ^err\nBack again, that's unfair"
+    }, {
+        "x": 32,
+        "y": 8,
+        "limit": 15,
+        "text": "There are 10 type^rsz\nof people in the\nworld: Those who\n^ruUnderstand binary^dism^\nand those who don't.",
+        "shouldClean": " "
+    }, {
+        "x": 32,
+        "y": 18,
+        "limit": 18,
+        "text": "With indented cod^reE\n^r08 moves back too far\nSo I use ^^ to get to^xo\nthe ^r13st ^rnNon-space char",
+        "shouldClean": " "
+    }, {
+        "x": 36,
+        "y": 24,
+        "limit": 26,
+        "text": "function doInigo() {\n  while (!countDead) {\n \n    Hello!^d What's up?^\n \n    My name is\n    ^dMrs. ^Inigo Montoya.\n^d    Nice to meet ya!^\n \n    You ^xskilled my father.\n    PREPARE TO D^rIYE!\n  }^dStop saying THAT!^\n}",
+        "shouldClean": " "
+    }, {
+        "x": 18,
+        "y": 38,
+        "limit": 0,
+        "text": "I do^xe^xsn't      think  \nwe're in^dto^     Kansas \nany^x mor^xse      To^xm^xato.  ",
+        "shouldClean": " "
+    }]
+}

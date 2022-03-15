@@ -1,0 +1,5 @@
+{
+    "script": "./bin/www",
+    "ext": "js html css",
+    "ignore": ["./node_modules/**"]
+}

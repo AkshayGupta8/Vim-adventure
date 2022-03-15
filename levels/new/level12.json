@@ -1,0 +1,623 @@
+{
+    "princess_message": "Thank you for choosing our\nunderground resort for your\ntext editing delight.\n\nI hope you'll enjoy our sandy\nbeaches and the warmth of\nlava all around us.\n\nOh, yeah - Don't panic...\n\n^cTHEY ARE ALL OVER\n^cTHE PLACE!!!",
+    "buffers": [{
+        "buffer": "underground",
+        "levelNumber": 12,
+        "addX": 100,
+        "addY": 80,
+        "cursorX": 6,
+        "cursorY": 13,
+        "bg": ["lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll", "lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll", "lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll", "llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll~~~+lllllllll+lllllllllllllllllllllllllllllllllllllllllllll", "lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll~~~lllllllllllllllllllllllllllllllllllllllllllllllllllllllll", "llllllllllllllllllllllllllllllllllllllllll  lllllllllllllllllllllllll ll~~~llllllll+lll+lllllllllllllllllllllllllllllllllllllllllllll", "lllllllllllllllllllllllllllllllllllllll                          llllll~~~lllllllll+lllllllllllllllllllllllllllllllllllllllllllllllll", "lllllllllllllllllllllllllllllllllllllll                ll   ll     lll~~~llllllllllllllllllllllllllllllllllllllllllllllllllllllllllll", "lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll  ll~~~lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll", "lllllllllllllllllllllllllllllllllllllll+++*++++++++++++++++++++++lll~~~llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll", "lllllllllllllllllllllllllllllllllllllll++++**++++++++++++++++++++++~~~llllllllllllllllll+llllllllllllllllllllllllllllllllllllllllllll", "lllllllllllllllllllllllllllllllllllllll++++++***++++++++++++++++++ll~~~llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll", "lllllllllllllllllllllllllllllllllllllll++++++++*+++++++llllllllllllll~~~lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll", "lllllllllllllllllllllllllllllllllllllll+++llllllllllllllllllllllllllll~~~lllllllll  lllllllllllllllllllllllllllllllllllllllllllllllll", "lllllllllllllllllllllllllllllllllllllll+++++++++*+++++++++*llllllllll~~~lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll", "lllllllllllllllllllllllllllllllllllllll+llllllllllllllllllllllllllllS~Sllllll+++++++***++++++++++++++       lllllllllllllllllllllllll", "lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll~~~lllllll+++++++++    lllllllllllllllllllllllllllllllllllllllllll", "llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll~~~llllllll+++++++++++++lllllllllllllllllllllllllllllllllllllllllll", "lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll  ~~~lllllllll+++++++++lllllllllllllllllllllllllllllllllllllllllllllll", "lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll ~~~llllllllll+llll llllllllllllllllllllllllllllllllllllllllllllllllll", "          l l     lll l               ~+ ++++ +++++ +++++ +++++~~~         l      l                                         l      ll", "  lllllllllllllllllllllllllllll      ~~+ ++++ +++++ +++++ +llll ~~~         l     l                                                 l", "  llllllllllllllllllllll            ~~~l llll llllllllllllll   l ~~~      l l+                                                      l", " lllllllllllllllllllllllllllll     ~~~l           l ll          l ~~~                                                               l", "ll+*****++*******llllllllllllll   ~~~l                           ~~~                                                               l", "ll+**********************+++*ll  ~~~l                            +                         l                                       l", "ll+*******++++++++++++++*lll l  ~~~l                                                      llll                                     l", "ll+***************    lllllll  ~~~l                                                       lll                                      l", "ll+*****************++++++**  ~~~l                                                       lll                                       l", " lllll l            ~~~llll   +++++++++++++++++++++++++          +                      lll                                       ll", "   l                 ~~~ lll  ++++++++++++++++++++++++++                               llll                                       ll", "    lllll             ~~~llll ++++++++++++++++++++++               +++++++++++++++++++lll                                         ll", "    l~~~l              ~~~lll +++++++++++++++++++++++++            +++++++                                                         l", "    l~~~l               S~S   +++++++++++++++++++++++              ++++++++                                                       ll", "    l~~~l                ~~~  ++++++++++++++++++                   ++++++++++                                                     ll", "    lS~Sllll              ~~~ ~~~                                  +++++++++                                                       l", "    l~~~ llllllllllllllllll~~~~~                                   +++++++++++++                                                  ll", "    l+++++++++++++++++++++ll~~~~~                                +                                                                l", "    lllllllllllllllllll~~~lll~~~~~                               +                                                                 l", "    llllllllllllllllll~~~~~lll~~~~~                                                +                                   ", "             lll l   ~~~~~~~lll~~~~+ ++ +    +  +    +  +          +++++++++++++++++++                                  ", "  +++++++++++lllll  ~~~ l ~~~l~~~l~+ + +     + +    +    +         ++++++++++                                          ", "  ++++++++++++llll ~~~    l~~~~~  l+   ++        +                 ++++++++++++                                       ", "  ~~~       ~~~lll~~~     ll~~~    +  +           + +   +++        ++++++++++++++++      ", "   ~~~       ~~~l~~~ llllllll~l    + +    +  ++  +   +   +       *                     ", "    ~~~       ~~~~~  llllllllll    +    +       +   +    +                                 ", "     ~~~       ~~~    lllllllll    +  +        +     +                             ", "    ~~~         ~                  +      +                      *                            ", "   ~~~                                                                                        ", "  ~~~                                                      ll                                 ", "  +                                                     l  llll  +++++++++++++++++++++++++    ", "        +                                               llllll~l +                            ", "  +                      +                              lllll~~~l~l                           ", "                                         l              ll ll~~~~~~                          ", "       +                                                 l ll~l~~~~~        ", "         +                             ~                    llll~~~~~       ", "       ~~~                            ~~                    lllS~S S~Sl", "      ~~~                            ~~~                      ~~~   ~~l", "     ~~~                            ~~~      l                ~~     ~                                 ", "    ~~~                            ~~~         +++++++++++   +~      + l*+            ***                 ", "   ~~~                          l ~~~                     lll               +                              ", "  ~~~                            ~~~                +++++++++            +                                ", "  +                       +     ~~~lll                                   +        +   l                    ", "                          ~    ll~~~ll                                             *ll+llllll               ", "                          ~~   ll ~~~l  +                    +                                         ", "                          ~~~  l   ~~~  l                                              ***            ", "                           ~~~      ~~~ l                                                     l      ", "                            ~~~      ~~~l                                         ***               ", "  *************************+ ~~~      ~~~                                          *ll+l      l", "  ******************+         ~~~      ~~~                                     ++   l         l", "  ****+++++++++                ~~~      ~~~                          ***                      l", "  ****+++++++++                 ~~~     +++l     + l        l  +l                             l", "  ****+++++++++                  ~~~                                                          l", "  ****+++++++++                 ~~~            l +                              ***           l", "  ****+++++++++                ~~~                                                            l", "  **************************+ ~~~                 l+                             ++           l", "  ********+++++++++++++++++++~~~                                                +             l", "  ******+                                                                                     l", "  ***********+                                         +    l                                 l", "  ******++++++++++++++++++                                                                    l     ", "  **+                                                                                               ", "  +                                     +                                                           ", "                                        ~                                                           ", "                                        ~~                                                           ", "                                        ~~~                                                          ", "                                         ~~                                       +     l           ", "                                          ~                                             l           ", "                                         l+l    l +    l  +       l             +     l             ", "                                          l     l     l    l                                        ", "                                          +    l    ll+  ++                      +   l l            ", "                                                                                +    ll   l         ", "                                             ++          ++                                         ", "                                                         l        ~                                l", "                                                        l         ~~              +     l          l", "                                                                  ~~~              l               l", "                                                                   ~~+           +lllllllll        ll", "                                                                    ~             l                 l", "                                                                                +ll   l            l", "                                                                                +     +   +         l", "                                                                                  l~                l", "                                                                                  l~~               l", "                                                                                  lS~S              l", "                                                                                  ll~~~           lll", "                                                                                  lll~~~~~         l", "                                                                                  llll~~~~         l", "                                                                                       ~~~       ", "                                                                                                 ", "                                                                                                 ", "                                                                                                 "],
+        "entities": [{
+            "type": "red_bug",
+            "x": 40,
+            "y": 31,
+            "data": {
+                "vol": "gg"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 33,
+            "y": 33,
+            "data": {
+                "vol": "G"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 50,
+            "y": 30,
+            "data": {
+                "vol": "("
+            }
+        }, {
+            "type": "red_bug",
+            "x": 34,
+            "y": 30,
+            "data": {
+                "vol": ")"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 38,
+            "y": 29,
+            "data": {
+                "vol": "#"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 36,
+            "y": 34,
+            "data": {
+                "vol": "*"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 57,
+            "y": 43,
+            "data": {
+                "vol": "5W"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 35,
+            "y": 43,
+            "data": {
+                "vol": "j"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 8,
+            "y": 41,
+            "data": {
+                "vol": "t"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 5,
+            "y": 42,
+            "data": {
+                "vol": "^"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 38,
+            "y": 40,
+            "data": {
+                "vol": "d"
+            }
+        }, {
+            "type": "cat_girl",
+            "x": 65,
+            "y": 38,
+            "data": {
+                "name": "scroll_down_girl",
+                "message": "Do you remember what 'zt',\n'zb' and 'zz' do? Now might\nbe a good time to jog your\nmemory (with no Fezzik\naround to do it for you...)"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 72,
+            "y": 33,
+            "data": {
+                "vol": "}"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 42,
+            "y": 21,
+            "data": {
+                "vol": "}"
+            }
+        }, {
+            "type": "keyboard_key",
+            "x": 43,
+            "y": 32,
+            "character": "[]",
+            "invisible": true
+        }, {
+            "type": "keyboard_key",
+            "x": 4,
+            "y": 42,
+            "character": "{}",
+            "invisible": true
+        }, {
+            "type": "red_bug",
+            "x": 76,
+            "y": 40,
+            "data": {
+                "vol": "3"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 74,
+            "y": 43,
+            "data": {
+                "vol": "F"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 70,
+            "y": 50,
+            "data": {
+                "vol": "k"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 79,
+            "y": 50,
+            "data": {
+                "vol": "l"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 10,
+            "y": 72,
+            "data": {
+                "vol": "2["
+            }
+        }, {
+            "type": "red_bug",
+            "x": 22,
+            "y": 79,
+            "data": {
+                "vol": "3]"
+            }
+        }, {
+            "type": "blue_door",
+            "x": 25,
+            "y": 33,
+            "invisible": false
+        }, {
+            "type": "brown_girl",
+            "x": 5,
+            "y": 41,
+            "data": {
+                "name": "paragraphs_girl",
+                "message": "Paragraphs are separated by empty lines.\n\n'{' moves the cursor to the empty line before\nthe current paragraph (or before the previous\none, if the cursor is not in a paragraph).\n\n'}' moves the cursor to the empty line after the\ncurrent paragraph (or the next one, when the\ncursor isn't in a paragraph).\n\nCheck out ':help paragraph' for more details."
+            },
+            "invisible": true
+        }, {
+            "type": "blond_boy",
+            "x": 43,
+            "y": 33,
+            "data": {
+                "name": "block_nav",
+                "message": "'[' and ']' are used to find the previous\nor next [counted] unmatched brace \nor parenthesis.\n\n'[' is used with either '{' or '(', and ']' is\nused with either '}' or ')'.\n\nThis is a great way to jump directly\nto the beginning or the end of the\ncurrent code block you're in!"
+            },
+            "invisible": true
+        }, {
+            "type": "red_bug",
+            "x": 60,
+            "y": 20,
+            "data": {
+                "vol": "F"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 54,
+            "y": 21,
+            "data": {
+                "vol": "{"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 48,
+            "y": 20,
+            "data": {
+                "vol": "$"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 44,
+            "y": 20,
+            "data": {
+                "vol": "T"
+            }
+        }, {
+            "type": "cat_girl",
+            "x": 23,
+            "y": 31,
+            "data": {
+                "name": "quoted-text-obj-girl",
+                "message": "Quoted string text objects are denoted\nby \", ', or ` according to the surrounding\nquotes. They have 3 unique attributes:\n\n1. They only work within one line.\n2. When used not within a quote, one is\n    searched for down the line.\n3. When standing on a quote, the pairs\n    are determined from the beginning of\n    the line."
+            }
+        }, {
+            "type": "red_bug",
+            "x": 26,
+            "y": 25,
+            "data": {
+                "vol": "a\""
+            }
+        }, {
+            "type": "red_bug",
+            "x": 9,
+            "y": 24,
+            "data": {
+                "vol": "a\""
+            }
+        }, {
+            "type": "red_key",
+            "x": 22,
+            "y": 28,
+            "invisible": true
+        }, {
+            "type": "red_bug",
+            "x": 23,
+            "y": 28,
+            "data": {
+                "vol": "i\""
+            }
+        }, {
+            "type": "red_bug",
+            "x": 49,
+            "y": 59,
+            "data": {
+                "vol": "s"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 56,
+            "y": 61,
+            "data": {
+                "vol": "i"
+            }
+        }, {
+            "type": "keyboard_key",
+            "x": 80,
+            "y": 69,
+            "character": ".",
+            "invisible": true
+        }, {
+            "type": "boy",
+            "x": 32,
+            "y": 39,
+            "data": {
+                "name": "bugs_vol_kid",
+                "message": "Each bug is vulnerable to commands\ncontaining the pattern on its back.\n\nTo destroy a bug, give a command\n(a movement, delete, yank etc.) with\nthe pattern when the bug is within\nthe command's range. The range\nwill be temporarily grayed."
+            }
+        }, {
+            "type": "small_brown_key",
+            "x": 52,
+            "y": 20,
+            "invisible": true
+        }, {
+            "type": "chest",
+            "x": 72,
+            "y": 42,
+            "invisible": true
+        }, {
+            "type": "keyboard_key",
+            "x": 72,
+            "y": 42,
+            "character": "\\ia",
+            "invisible": true
+        }, {
+            "type": "red_bug",
+            "x": 73,
+            "y": 41,
+            "data": {
+                "vol": "]}"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 42,
+            "y": 10,
+            "data": {
+                "vol": "a{"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 40,
+            "y": 11,
+            "data": {
+                "vol": "ap"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 39,
+            "y": 12,
+            "data": {
+                "vol": "2a}"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 58,
+            "y": 9,
+            "data": {
+                "vol": "i("
+            }
+        }, {
+            "type": "red_bug",
+            "x": 50,
+            "y": 11,
+            "data": {
+                "vol": "a("
+            }
+        }, {
+            "type": "pink_girl",
+            "x": 71,
+            "y": 13,
+            "data": {
+                "name": "block-range",
+                "message": "Block text objects select count blocks\nfrom the count'th unmatched opening\nbracket (or parenthesis etc.) backwards\nto the matching closing bracket.\n\nWhile 'a' block text object includes also\nthe surrounding brackets, an 'i'nner\nblock text object doesn't include them."
+            }
+        }, {
+            "type": "door",
+            "x": 69,
+            "y": 15,
+            "invisible": false
+        }, {
+            "type": "red_bug",
+            "x": 51,
+            "y": 14,
+            "data": {
+                "vol": "a["
+            }
+        }, {
+            "type": "red_bug",
+            "x": 77,
+            "y": 16,
+            "data": {
+                "vol": "i("
+            }
+        }, {
+            "type": "red_bug",
+            "x": 78,
+            "y": 16,
+            "data": {
+                "vol": "a"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 77,
+            "y": 17,
+            "data": {
+                "vol": ")"
+            }
+        }, {
+            "type": "keyboard_key",
+            "x": 45,
+            "y": 44,
+            "character": "()",
+            "invisible": true
+        }, {
+            "type": "pink_girl",
+            "x": 46,
+            "y": 44,
+            "data": {
+                "name": "sentences_girl",
+                "message": "'(' and ')' enable you to navigate sentences!\n\nA sentence ends at a '.', '!' or '?' followed by\neither the end of a line, or by a space or\ntab. Any number of closing ')', ']', '\"' and ' ' '\ncharacters may appear after the '.', '!' or '?'\nbefore the spaces, tabs or end of line.\nAn empty line is also a sentence boundary.\n\nCheck out ':help sentence' for examples."
+            },
+            "invisible": true
+        }, {
+            "type": "yellow_key",
+            "x": 24,
+            "y": 76,
+            "invisible": true
+        }, {
+            "type": "green_boy",
+            "x": 46,
+            "y": 21,
+            "data": {
+                "name": "tobj-intro",
+                "message": "You really should unlock the power of text\nobjects! Look for the 'ia' button to do that.\n\nText objects let you select a meaningful\ntext element you're currently standing on\nsuch as a sentence, a code block, quoted\nstring etc. as the range of an operation\nwithout any additional movement."
+            },
+            "invisible": true
+        }, {
+            "type": "red_bug",
+            "x": 91,
+            "y": 15,
+            "data": {
+                "vol": "%"
+            }
+        }, {
+            "type": "brown_girl",
+            "x": 60,
+            "y": 10,
+            "data": {
+                "name": "nonblock-space",
+                "message": "A sequence of spaces of any length\nis considered an inner text object.\n\nWhen selecting any non-block text\nobject (w, W, s, p, \" etc.) these \nspaces are also counted as part\nof the count. Check out ':help iw'\nfor an example."
+            },
+            "invisible": true
+        }, {
+            "type": "boy",
+            "x": 77,
+            "y": 19,
+            "data": {
+                "name": "a-ws-handling",
+                "message": "'a' non-block text object (i.e. word, WORD,\nsentence, paragraph, or quoted string), in\naddition to the object itself, also includes\nthe white space following the object.\nIf there is none, or the cursor is located on\nthe white space before the object then the\nselection includes the preceding white \nspace instead."
+            },
+            "invisible": true
+        }, {
+            "type": "blue_key",
+            "x": 77,
+            "y": 22,
+            "invisible": true
+        }, {
+            "type": "red_key",
+            "x": 54,
+            "y": 10,
+            "invisible": true
+        }, {
+            "type": "red_bug",
+            "x": 17,
+            "y": 26,
+            "data": {
+                "vol": "a\""
+            }
+        }, {
+            "type": "blue_door",
+            "x": 84,
+            "y": 101,
+            "invisible": false
+        }, {
+            "type": "princess",
+            "x": 88,
+            "y": 104,
+            "data": {
+                "name": "level_12_princess",
+                "levelToLoad": 13,
+                "message": "Well done Shadowy One!\nTo be continued..."
+            }
+        }, {
+            "type": "blue_key",
+            "x": 40,
+            "y": 81,
+            "invisible": true
+        }, {
+            "type": "red_bug",
+            "x": 74,
+            "y": 50,
+            "data": {
+                "vol": "[{"
+            }
+        }, {
+            "type": "red_door",
+            "x": 68,
+            "y": 56,
+            "invisible": false
+        }, {
+            "type": "red_door",
+            "x": 64,
+            "y": 56,
+            "invisible": false
+        }, {
+            "type": "blond_boy",
+            "x": 79,
+            "y": 69,
+            "data": {
+                "name": "dot_kid",
+                "message": "Simple changes can be repeated with\nthe '.' (dot) command. A simple change\nis either the last command executed\n(such as 'dw', '2rG' etc.) or the entire\nlast edit operation including all the text\nentered in insert mode (for example\n'ct\"Awesome<esc>'). Movements are\nnot considered as changes.\n\nIf a count is not supplied with the dot\ncommand, the count used in the last\nsimple change is used. If a count is\nspecified, it is used instead."
+            },
+            "invisible": true
+        }, {
+            "type": "green_boy",
+            "x": 16,
+            "y": 47,
+            "data": {
+                "name": "yank-movement",
+                "message": "Trying to destroy bugs by using yank\nand without knowing how yank moves\nthe cursor might be dangerous!\n\nAfter a character-wise yank, the cursor\nis moved to the first yanked character\nthat is closest to the start of the buffer.\n \nWith a line-wise yank command the\ncursor is put in the first line, but the\ncolumn is unmodified, thus it may not\nbe on the first yanked character."
+            }
+        }],
+        "textareas": [{
+            "x": 5,
+            "y": 37,
+            "limit": 22,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "YOU SHALL NOT PASS!!!"
+        }, {
+            "x": 30,
+            "y": 29,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "In every generation there\nis a Chosen One. She alone\nwill stand against the\nvampires, the demons, and\nthe forces of darkness.\nShe is the Slayer."
+        }, {
+            "x": 2,
+            "y": 41,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "May the 4th\nbe with you!"
+        }, {
+            "x": 35,
+            "y": 40,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "It's good to meet you,\nDr. Banner. Your work on\nanti-electron collisions\nis unparalleled. And I'm\na huge fan of the way you\nlose control and turn into\nan enormous green rage\nmonster."
+        }, {
+            "x": 2,
+            "y": 50,
+            "limit": 10,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "^n1Y^ou can measure distance by\ntime. ^n2\"^How far away is it?\"\n^n4\"^Oh about 20 minutes.\" ^n3B^ut\nit doesn't work the other\nway. ^n5\"^When do you get off\nwork?\" ^n6\"^Around 3 miles.\""
+        }, {
+            "x": 65,
+            "y": 25,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "* {\n  margin: 0;\n  padding: 0;\n}\n \n#game {\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  margin: 20px;\n}\n \n#game-menu-volume {\n  position: absolute;\n  top: 20px;\n  left: 360px;\n  cursor: pointer;\n \n  width: 100px;\n  height: 10px;\n \n  border-radius: 10px;\n  overflow: hidden;\n  border: 1px solid #fff;\n}"
+        }, {
+            "x": 2,
+            "y": 62,
+            "limit": 5,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "7*(3+2*(5-3)-7/(17-4))+7)^5"
+        }, {
+            "x": 2,
+            "y": 68,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "for (i='a'; i<='z'; ++i) {\n  switch (letter) {\n    case 'a':\n    case 'e':\n    case 'i':\n    case 'o':\n    case 'u':\n      for (i=0; i<3; ++i) {\n        printf(\"VOWEL!\\n\");\n      }\n    default:\n      printf(\"%c\\n\", i);\n  }\n}"
+        }, {
+            "x": 2,
+            "y": 24,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "yoda =  \"^*3.No!.Yes!^\";\nyoda += \" Try not. \"      ;\nyoda += \"Do,\" + \" or \";\nyoda += '^*7.do not..R2D2.^';\nyoda += \"There is no try.\""
+        }, {
+            "x": 39,
+            "y": 20,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "These are not the droids\nyou are looking for."
+        }, {
+            "x": 69,
+            "y": 59,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "In the beginning VIM\ncreated ^*4.the .^characters\nand ^*4.the .^whitespaces.\nNow ^*4.the .^text was formless\nand confusing, there was\nno meaning in the file,\nand the Spirit of VIM\nwas hovering over the\nletters. And VIM said,\n\"Let there be words,\" and\nthere were ^*5.words.^.\nVIM saw that the words\nweren't enough so he\nseparated the words from\nthe WORDs. VIM denoted\nwords with 'w' and WORDs\nwith 'W'. And^*10. there was.^\nevening, and^*10. there was.^\nmorning-the first day.",
+            "sacred": true
+        }, {
+            "x": 40,
+            "y": 55,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "^*0..LeChuck? He's the guy\nthat went to the\nGovernor's for dinner\nand never wanted to\nleave. He fell for her\nin a big way, but she\ntold him to drop dead.\nSo he did.\n ^\nThen things really got\nugly."
+        }, {
+            "x": 40,
+            "y": 71,
+            "limit": 25,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "function waitForIt(^*0..a, b^) {\n \n  var ^*6.isOver.bored^ = false;\n \n  while (!^*6.isOver.happy^) {\n    snooze(10);\n    if (fatLadySings()) {\n      ^*6.isOver.moreNMoreToGo^ = true;\n    }\n  }\n}\n"
+        }, {
+            "x": 39,
+            "y": 9,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "for (int i=0; i<10; ++i) {\n  for (int j=0; j<10; ++j) {\n    cout << (^*11.(i+1)*(j+1).(i+3)/(j-23)^);\n    cout << \" \";\n  }\n  cout << ^*4.endl.[0,1,2,3]^;\n}"
+        }, {
+            "x": 77,
+            "y": 3,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "<!DOCTYPE html>\n<html>\n  <^*4.head.Don't loose yours^>\n    ^*8.<script>.[[Ghost! What ghost?]]^\n \nfunction helloWorld() {\n^*24.  alert('Hello World!');.  var str = \"Hello\";\n  str += \" \";\n  str += \"World\";\n  alert (str);^\n}\n \nwindow.addEventListener(\n  \"load\",\n  helloWorld,\n  false);\n \n    </script>\n  </head>\n</html>"
+        }, {
+            "x": 41,
+            "y": 87,
+            "limit": 44,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": " 1   2   ^*4.Fizz.3^   4   ^*4.Buzz.5^\n \n ^*4.Fizz.6^   7   8   ^*4.Fizz.9^  ^*4.Buzz.10^\n \n11  ^*4.Fizz.12^  13  14  ^*8.FizzBuzz.15^"
+        }, {
+            "x": 69,
+            "y": 84,
+            "limit": 55,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "One little, two little,\nthree little ^*7.Indians.buggy^\nFour little, five little,\nsix little ^*7.Indians.buggy bugs^\nSeven little, eight little,\nnine little ^*7.Indians.buggy bugs^\nTen little ^*11.Indian boys^buggy bug bugs^.\n \nTen little, nine little,\neight little ^*7.Indians.buggy bugs^\nSeven little, six little,\nfive little ^*7.Indians.buggy^\nFour little, three little,\ntwo little ^*7.Indians.buggy^\nOne little ^*10.Indian boy^buggy bug bug^."
+        }]
+    }]
+}

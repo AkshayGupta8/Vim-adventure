@@ -1,0 +1,255 @@
+{
+    "levelNumber": 10,
+    "addX": 187,
+    "addY": 442,
+    "princess_message": "Excellent!\n\nNow you need to start moving\nsome text around!",
+    "bg": ["wwwwwwwwwwwwwww__________________W______wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwww_WWWWWWWWWWWWWWWWWWWWWWW_wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwww_W+******WWWWWWWWWWWWWWW_wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwww_W+******+******WWWWWWWW_wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwww_W*******************WWW_wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwww_W+****+*****WWWWWWWWWWW_wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwww_W*WWWWWWWWWWWWWWWWWWWWW_wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwww_W+***+***WWWWWWWWWWWWWW_wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwww_W+***+************WWWWW_wwwww+*********+wwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwww_W****+********WWWWWWWWW_wwwww******************wwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwww_W+***************+***+W_wwwww********************wwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwww_WWWWWWWWWWWWWWWWWWWWWWW_wwwww*****++*****+***wwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwww_WWWWWWWWWWWWWWWWWWWWWWW_wwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwww_WWW+++++++++++++++++++W_wwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwww_WWWWWWWWWWWWWWWWWWWWWWW_wwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwww_WWWWWWWWWWWWWWWWWWWWWWW_wwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwww______________________W__wwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwgg.ggwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww   w", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwggggggggg.ggwwwwwwwwwg.gwwwwwwwwwwwwwwwgggggwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwg...........++++++++++++++++++++++wwwwww...gwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwg.ggggggggggwwwwwwwwwwwwwwwwwwwwwwwwwwwggg.gwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwww+++++++++++++++wwwwwwwwwwww+++++++++++++++++++++++++++wwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwww+++++++++++++++++++++wwwwww+++++++++++++++++++++++++wwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwww+++++++++++++++++++wwwwwwww++++++++++++++wwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwww++++++++++++++++wwwwwwwwwww++++++++++++++++++++++wwwwwwwwwwwwwww  wwww", "wwwwwwwwwwwwwwwwwwwwwwwww+++++++++++++wwwwwwwwwwwwww++++++++++++++wwwwwwwwwwwwwwwwwwwwwww  www", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwww wwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwww++++++++++++++wwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwww    wwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwww++++++++++++++++++++++wwwwwwwwwww", "     wwwwww ww   wwwwwwww++++++++++wwwwwwwwwwwwwwwww++++++++++++++wwwwwwwwwwwwwwwwwww", "      w   wwww   wwwwwwww+++++++++++++++wwwwwwwwwwww+++++++++++++++++++wwwwwwwwwwwwww  ggg", "            ww   w wwwwww++++++++++++wwwwwwwwwwwwwww++++++++++wwwwwwwwwwwwwwwwwwwwwww  g.g", "              www   wwwww++++++++++++++++++wwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwwwwwwww  g.g", "                    wwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwwwwwwww  S.S", "                    wwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwww           g.g", "                    wwwww++++++++++++wwwwwwwwwwwwwww++++++++++++++++++++++w            g.g", "                    wwwww+++++++++++++++++wwwwwwwwww++++++++++++++++wwwwwwww           g.g", "                    wwwww++++++++++++++++++wwwwwwwww++++++++++++++++wwwwwwwww          g.g", "                    wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww++++++++++++++++++++++++w          g.g", "                    wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww++++++++++++++++++wwwwwww          S.S", "                          wwwwwwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwww w           g.g", "                          wwwwwwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwww    w   w           g.g", "                          wwg.gwwwwwwwwwwwwwwwwwwwwwg.gwwwwwww                         g.g", "                          wwg.gwwwwwwwwwwwwwwwwwwwwwg.gwwwwwww                         g.gw", "                           wg.gwwwwwwwwwwwwwwwwwwwwwg.gwwwwwww                       wwg.gw", "                           wg.gwwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwS.Sw", "                           wg.ggwwwwwwwwwwwwwwwwwwwwg.gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwgg.gw", "                           wg..++++++++++++wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww..gw", "                           wggggwwwwwwwwwwwwwwwwwwwww  w w w                   w     wggggw", "                             www www ww         w w                                  wwwwww", "                                                                                        www"],
+    "entities": [{
+        "type": "chest",
+        "x": 37,
+        "y": 2,
+        "invisible": false
+    }, {
+        "type": "keyboard_key",
+        "x": 37,
+        "y": 2,
+        "character": "y",
+        "invisible": true
+    }, {
+        "type": "yellow_key",
+        "x": 37,
+        "y": 10,
+        "invisible": true
+    }, {
+        "type": "brown_girl",
+        "x": 17,
+        "y": 13,
+        "data": {
+            "name": "paste_girl",
+            "message": "When you delete text, it is\nsaved in the unnamed register\n(appropriately called \"\") as if it\nwas cut. Paste command uses\nthe unnamed register by default\nso the following paste command\nwill paste the most recently\ndeleted text.\n\nYou can paste after the cursor's\nposition with 'p' or before\nwith 'P'."
+        }
+    }, {
+        "type": "keyboard_key",
+        "x": 33,
+        "y": 10,
+        "character": "p"
+    }, {
+        "type": "door",
+        "x": 37,
+        "y": 16,
+        "invisible": false
+    }, {
+        "type": "tall_tree",
+        "x": 38,
+        "y": 17,
+        "invisible": false
+    }, {
+        "type": "tall_tree",
+        "x": 36,
+        "y": 17,
+        "invisible": false
+    }, {
+        "type": "pink_girl",
+        "x": 36,
+        "y": 18,
+        "data": {
+            "name": "registers_girl",
+            "message": "To fully utilize the cut and\npaste mechanism, you should\nknow about registers!\n\nRegisters are where text is\nstored. A register is denoted\nby \" followed by a single\ncharacter for the register's\nname. For example \"d is the\nregister named d, and \"- is\nthe register named -.\n\nThere are a number of register\ngroups, each storing different\ntext. Type ':reg' to view registers."
+        }
+    }, {
+        "type": "boy",
+        "x": 29,
+        "y": 19,
+        "data": {
+            "name": "linewise_paste_kid",
+            "message": "If the deletion is line-wise,\npasted text will be added either\nabove ('P') or below ('p') the\ncurrent line."
+        }
+    }, {
+        "type": "keyboard_key",
+        "x": 34,
+        "y": 25,
+        "character": "\"",
+        "invisible": true
+    }, {
+        "type": "cat_girl",
+        "x": 30,
+        "y": 25,
+        "data": {
+            "name": "del_numbered_regs",
+            "message": "When you delete a line or more\n(not a word, or a letter) the\ndeleted content is stored in\nthe numbered registers, \"1 - \"9.\nThe latest delete is stored in\n\"1, the one before it is in \"2\nand so on. When another line\nis deleted, the text in \"9 is\ndiscarded, \"9 gets the value\nstored in \"8 and so on."
+        },
+        "invisible": true
+    }, {
+        "type": "brown_girl",
+        "x": 31,
+        "y": 34,
+        "data": {
+            "name": "specify_register_girl",
+            "message": "You can specify a register name\nbefore a paste command to tell\nVIM which register you would like\nto paste from. For example, you\ncan use \"2p to paste the line\nthat was deleted right before the\nmost recent delete.\n\nUse ':reg' followed by a register's\nname to see its content."
+        },
+        "invisible": true
+    }, {
+        "type": "pink_girl",
+        "x": 27,
+        "y": 42,
+        "data": {
+            "name": "block_hole_girl",
+            "message": "If you want a delete operation\nto have no effect whatsoever\non the registers, specify \"_\n(that's an underscore) as its\ntarget register. \"_ is called\nthe \"Black Hole register\" and\nnothing is really stored into it."
+        },
+        "invisible": true
+    }, {
+        "type": "brown_girl",
+        "x": 50,
+        "y": 15,
+        "data": {
+            "name": "unnamed_and_small_girl",
+            "message": "When you delete text that's\nshorter than a line without\nspecifying a target register,\nthe deleted content is saved\nin the 'small delete' register\nnamed \"- (That's a minus).\nText shorter than a line is\nnot saved into the numbered\nregisters."
+        }
+    }, {
+        "type": "boy",
+        "x": 70,
+        "y": 19,
+        "data": {
+            "name": "named_registers_kid",
+            "message": "The named registers \"a - \"z\ncan be used before any delete,\nyank (and in the future also\nchange or substitute) command.\n\nWhen the upper-case version of\ntheir name is used (\"A - \"Z), the\ndeleted text will be appended to\ntheir existing content instead of\nreplacing it."
+        }
+    }, {
+        "type": "small_brown_key",
+        "x": 56,
+        "y": 23,
+        "invisible": true
+    }, {
+        "type": "cat_girl",
+        "x": 53,
+        "y": 38,
+        "data": {
+            "name": "reg_0_girl",
+            "message": "\"0 stores the last yanked\nline (or more) if no other\nregister was specified.\n\nIt is very useful when you\nyank something and then\nwant to delete a few things\nwithout loosing the yanked\ntext."
+        }
+    }, {
+        "type": "yellow_key",
+        "x": 51,
+        "y": 11,
+        "invisible": true
+    }, {
+        "type": "yellow_key",
+        "x": 52,
+        "y": 44,
+        "invisible": true
+    }, {
+        "type": "yellow_key",
+        "x": 52,
+        "y": 36,
+        "invisible": true
+    }, {
+        "type": "door",
+        "x": 88,
+        "y": 38,
+        "invisible": false
+    }, {
+        "type": "door",
+        "x": 88,
+        "y": 44,
+        "invisible": false
+    }, {
+        "type": "door",
+        "x": 88,
+        "y": 50,
+        "invisible": false
+    }, {
+        "type": "princess",
+        "x": 88,
+        "y": 36,
+        "data": {
+            "name": "level_10_princess",
+            "levelToLoad": 11,
+            "message": "Well done Shadowy One!\nTo be continued..."
+        }
+    }, {
+        "type": "boy",
+        "x": 53,
+        "y": 50,
+        "data": {
+            "name": "yank_whole_lines_kid",
+            "message": "You can yank whole\nlines with 'yy' or 'Y'.\n\nCheck out the help for\nan example (:help yy)."
+        }
+    }],
+    "textareas": [{
+        "x": 40,
+        "y": 19,
+        "limit": 0,
+        "shouldClean": " ",
+        "alwaysSink": false,
+        "text": "Be^*2.tt.^y bough^*1.t.^ a bi^*1.t.^ of bu^*2.tt.^er"
+    }, {
+        "x": 17,
+        "y": 2,
+        "limit": 0,
+        "shouldClean": " ",
+        "alwaysSink": false,
+        "text": "^*5.Delet.^ed text\nis not ^*4.real.^ly lost\nYou can retrieve it\nat no ^*4.real.^ cost\n \n^*5.Delet.^ing ^*4.you .^know\nThat ^*4.you .^already aced\nNow ^*4.you .^just need\nto learn how to paste"
+    }, {
+        "x": 19,
+        "y": 13,
+        "limit": 8,
+        "shouldClean": " ",
+        "alwaysSink": true,
+        "text": "^dyou ^^dDelet^^ded ^^dreal^^xi^xt^xy"
+    }, {
+        "x": 25,
+        "y": 22,
+        "limit": 9,
+        "shouldClean": " ",
+        "alwaysSink": false,
+        "text": "^*41.The wheels on the bus\ngo round and round,.^\nRound and round\n^dThe wheels on the bus\ngo round and round,^\nRound and round.\n^*41.The wheels on the bus\ngo round and round,.^\nall day long."
+    }, {
+        "x": 25,
+        "y": 34,
+        "limit": 9,
+        "shouldClean": " ",
+        "alwaysSink": false,
+        "text": "Delete me!\n^dpass it around,^\n^don the wall.^\n^d99 bottles of beer^"
+    }, {
+        "x": 25,
+        "y": 40,
+        "limit": 17,
+        "shouldClean": " ",
+        "alwaysSink": false,
+        "text": "^*18.99 bottles of beer.^\non the wall,\n^*18.99 bottles of beer.^\nTake one down and\n^*15.pass it around,.^\n98 bottles of beer\n^*12.on the wall..^"
+    }, {
+        "x": 45,
+        "y": 8,
+        "limit": 9,
+        "shouldClean": " ",
+        "alwaysSink": false,
+        "text": "If you can'^*1.t.^\nexplain it simply,\nyou don't understand\nit we^xXll enough."
+    }, {
+        "x": 52,
+        "y": 22,
+        "limit": 100,
+        "shouldClean": " ",
+        "alwaysSink": false,
+        "text": "When tweetle beetles battle\nwith paddles in a puddle,\nthey call it a\n^*21.tweetle beetle puddle.^^dbattle^ ^dtweetle ^^dpaddle ^\n^*13.paddle battle.^^dbeetle ^^dpuddle^."
+    }, {
+        "x": 52,
+        "y": 32,
+        "limit": 0,
+        "shouldClean": " ",
+        "alwaysSink": false,
+        "text": "^*12.One Ring to .^rule them all,\nOne Ring to find them,\n^*12.One Ring to .^bring them all\nand in the darkness\nbind them."
+    }, {
+        "x": 52,
+        "y": 40,
+        "limit": 0,
+        "shouldClean": " ",
+        "alwaysSink": false,
+        "text": "Let's hear it for VIM!\n^dCheck it out Yo!^\n^*33.Hip Hip, Hooray!\nHip Hip, Hooray!.^\nHip Hip, Hooray!\n^dNo, really. Check it out^\nAnd again for VIM!\n^*50.Hip Hip, Hooray!\nHip Hip, Hooray!\nHip Hip, Hooray!.^"
+    }, {
+        "x": 31,
+        "y": 52,
+        "limit": 0,
+        "shouldClean": " ",
+        "alwaysSink": false,
+        "text": "^*11.Betty rules.^ the ^*14.tweetle beetle.^ ^*11.on the wall.^ with ^*8.One Ring.^"
+    }]
+}

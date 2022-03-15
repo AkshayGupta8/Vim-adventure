@@ -1,0 +1,137 @@
+{
+    "levelNumber": 3,
+    "addX": 171,
+    "addY": 128,
+    "bg": ["wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwgwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww     ", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwgwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww     ", "wwwwwwwwwwwwwwwwwwwwwwwwwwwgggggggggggggggggggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww              ", "wwwwwwwwwwwwwwwwwwwwwwwwwwwgggggggggggggggggggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww              ", "wwwwwwwwwwwwwwwwwwwwwwwwwwwgg++++++++++++++++gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww             ", "wwwwwwwwwwwwwwwwwwwwwwwwwwwgg++++++++++++++++gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww             ", "wwwwwwwwwwwwwwwwwwwwwwwwwwwgg+++++++++++++ggggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwgg+++++++++++++++ggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwgggggggggggggggggggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwgggggggggggggggggg++++++++++++++wwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww++++w++w+++w++++w++++w+++++++w+++wwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww+++w++w++++w++w+++w++w++w++++++wwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww++++w++++++w+++++++w+++++++w++wwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww+++w+++++++w++++w++w+++wwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "                     wwwwwwwwwwwwwwwwwwwwwwww+++w+++++++w++++++++w+++++++w++wwwwwwwwww", "                            wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "                              wwwwwwwwwwwwwww+++++++w++++w+++++++wwwwwwwwwwwwwwwwwwwww", "                              wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "                              wwwwwwwwwwwwwww+++wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "                              wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "                                wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "                                 wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "                                   wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "                                  wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "                                     wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "                                     wwwwwwwwwwwwwwwwwwwwwwwwwwwwww      wwwwwwwwwww", "                                     wwwwwwwwwwwwwwwww   w    ww", "                                      w      w  wwww", "                                      w      w  ", "                                      w     w   ", "                                      ww    w  ", "                                       w    w  ", "                                       w   w   ", "                                      w    w     ", "                                      w    w     ", "                                      w   w      ", "                                      ww  w      ", "                                        www     ", "                                          ww    ", "                                               ", "                                                ", "                                                ", "                                                "],
+    "entities": [{
+        "type": "cat_girl",
+        "x": 36,
+        "y": 3,
+        "data": {
+            "name": "red_instructions",
+            "message": "The bugs have been changing\nour texts for so long now that\nwe barely remember how they\nused to be. Luckily, they leave red\nmarks when they add something... \nPlease help us fix it."
+        }
+    }, {
+        "type": "tall_tree",
+        "x": 28,
+        "y": 5
+    }, {
+        "type": "tall_tree",
+        "x": 28,
+        "y": 3
+    }, {
+        "type": "tall_tree",
+        "x": 28,
+        "y": 4
+    }, {
+        "type": "tall_tree",
+        "x": 29,
+        "y": 3
+    }, {
+        "type": "tall_tree",
+        "x": 30,
+        "y": 3
+    }, {
+        "type": "tall_tree",
+        "x": 28,
+        "y": 6
+    }, {
+        "type": "tall_tree",
+        "x": 44,
+        "y": 7
+    }, {
+        "type": "tall_tree",
+        "x": 44,
+        "y": 8
+    }, {
+        "type": "tall_tree",
+        "x": 43,
+        "y": 9
+    }, {
+        "type": "tall_tree",
+        "x": 44,
+        "y": 9
+    }, {
+        "type": "rock",
+        "x": 60,
+        "y": 13
+    }, {
+        "type": "rock",
+        "x": 75,
+        "y": 13
+    }, {
+        "type": "rock",
+        "x": 50,
+        "y": 15
+    }, {
+        "type": "rock",
+        "x": 63,
+        "y": 15
+    }, {
+        "type": "rock",
+        "x": 57,
+        "y": 19
+    }, {
+        "type": "rock",
+        "x": 72,
+        "y": 19
+    }, {
+        "type": "rock",
+        "x": 55,
+        "y": 13
+    }, {
+        "type": "rock",
+        "x": 53,
+        "y": 21
+    }, {
+        "type": "timer_start",
+        "x": 45,
+        "y": 8,
+        "data": {
+            "name": "endless_song_timer",
+            "timerName": "endless_song_timer",
+            "intervalInSec": 30,
+            "targetX": 45,
+            "targetY": 7,
+            "startMessage": "Rumor has it that the text\nislands below guard the\npower of deletion but no one\nsucceeded in getting it...\nThey were all caught in a\nnasty loop and disappeared!\n\nI'll teleport you back here\nin 30 seconds so you won't\nget lost on these islands.",
+            "stillMessage": "Still here? Why don't you\ntry making it through the\ntext islands?"
+        }
+    }, {
+        "type": "rock",
+        "x": 55,
+        "y": 17
+    }, {
+        "type": "keyboard_key",
+        "x": 41,
+        "y": 5,
+        "character": "B"
+    }, {
+        "type": "small_brown_key",
+        "x": 36,
+        "y": 5,
+        "invisible": true
+    }, {
+        "type": "pink_girl",
+        "x": 31,
+        "y": 7,
+        "data": {
+            "name": "pinky_goto_artifact",
+            "message": "O'Shadowy One!\nI have an urgent message\nfor you. We finally found\nout what's the terrible\nplan of the bugs!\nYou must recover the lost\nartifact hidden in the maze\nand return here ASAP."
+        },
+        "invisible": true
+    }, {
+        "type": "keyboard_key",
+        "x": 47,
+        "y": 23,
+        "character": "x"
+    }],
+    "textareas": [{
+        "x": 29,
+        "y": 4,
+        "text": "Roses are^xn^x'^xt red\nViolets are blue\nGoto^xs is evil\nSo is the flu^xt^xe"
+    }, {
+        "x": 45,
+        "y": 9,
+        "text": "while (true) {\n \nThis is the song that doesn't end\n \nYes it goes on and on my friend\n \nSome people started singing it\n \nNot knowing what it was\n \nAnd they'll continue singing it\n \nForever just because\n \n};"
+    }]
+}

@@ -1,0 +1,221 @@
+{
+    "levelNumber": 5,
+    "addX": 180,
+    "addY": 154,
+    "princess_message": "Well done!\n\nIt's time you learn how\nto delete faster.\n\nGo on!",
+    "bg": ["wwwwwwwgwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwgwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwgwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww  w", "wwwwwwwgwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww w", "wwwwwwwgwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww w", "wwwwwwwgwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwggggggggggggggggggggggggggggggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwggggggggggggggggggggggggggggggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwgg+++++++++++++++++gggggggggggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwgg+++++++++++++++++++++gggggggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwgg++++++++++++++ggggggggggggggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwgg+++++++++++++++++++++++gggggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwgg+++++++++++++++++++++gggggggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwgg++++++++++++++++++ggggggggggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwgg++++++++++++++++++++ggggggggggggggggggggggggggggggggggggggggggwwwwwwww", "wwwwwwgg+++++++++++++++++++gggggggggggggggggggggggggggggggggggggggggggwwwwwwww", "wwwwwwggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggwwwwww", "wwwwwwggggggggggggggggggggggggggggggggSS+++++++++++++++++++++++++++++++gwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwS.Swwwwwwwwwwgg++++S+++++++++++++++++++++++++++gggwwwww", "wwwwwwwwwwwwwwwwwwwwwwwS.Swwwwwwwwwwgg++++++++++++++++++++++++++++++++++gwwwww", "wwwwwwwwwwwwwwwwwwwwwwwS.Swwwwwwwwwwgg++S+++++++++++++++++++++++++++++gggwwwww", "wwwwwwwwwwwwwwwwwwwwwwwS.Swwwwwwwwwwgg+++++++++++++++++++++++++gggggggggwwwwww", "wwww++++++S++S++++S++++++++++S+S+wwwgg++++++++++S+++++++S++++++++++++gwwwwwwww", "wwww++++++S+++S+++S+++++S+++S+S+wwwwgg+++S+++++++++++++++S++++++++ggggwwwwwwww", "wwww++++++S+++S++++++++S+S+wwwwwwwwwgg+++++++++++++++++++++++++gggggggwwwwwwww", "wwww++++++S++++++++++++S+S+wwwwwwwwwgg++++++S+++++++++++++++++++ggggggwwwwwwww", "wwww+++++++S+++++++++++S++++S+S+wwwwgg+++++++++++++++++++++++++gggggggwwwwwwww", "wwww+++++++SS++++S+++++S++S+S+wwwwwwgg+++++S+++++++++++++++++++gggggggwwwwwwww", "wwww+++++++SS++++++S+++S+S+wwwwwwwwwgg++++++++++++++++++S++++++++++++gwwwwwwww", "wwww+++S+++S++++S++S+++++++S+S+wwwwwgg++S+++++++++S+++++++++++++++ggggwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwS.Swwwwwwwwwwgg+++++S+++++++++++++++++++gggggggwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwS.Swwwwwwwwwwgg+++++++++++++++++++++++++gggggggwwwwwwww   ", "wwwwwwwwwwwwwwwwwwwwwwwS.Swwwwwwwwwwgg+++++++++++++++++++++++++gggggggwwwwwwww    ", "wwwwwwwwwwwwwwwwwwwwwwwS.Swwwwwwwwwwgg+++++++++++++++++++++++++gggggggwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwS.Swwwwwwwwwwgg+++++++++++++++++++++++++gggggggwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwS.Swwwwwwwwwwgg+++++++++++++++++++++++++++gggggwwwwwwww", "wwwwwSSSSSSSSSSSSSSSSSSS.Swwwwwwwwwwggggggggggggggggggggggggggggggggggwwwwwwww", "wwwwwS...................Swwwwwwwwwwgg+++++++++++++++++++++++++gggggggwwwwwwww", "wwwwwS.SSSSSSSSSSSSSSSSSSSwwwwwwwwwwggggggggggggggggggggggggggggggggggwwwwwwww", "     S.S              wwwww                                  ww", "    ggggg                 w                                  ww", "    ggggg                                                     w", "    ggggg                                                    ww", "    ggggg"],
+    "entities": [{
+        "type": "pink_girl",
+        "x": 30,
+        "y": 14,
+        "data": {
+            "name": "dw_kid",
+            "message": "The poem on the left\ntalks about w,\nbut the same is true\nfor other motions\nsuch as e, b, W, E,\nB and others you'll\nencounter later.\nIt even works with h, j, k,\nand l. Try it!"
+        }
+    }, {
+        "type": "tall_tree",
+        "x": 37,
+        "y": 18,
+        "invisible": false
+    }, {
+        "type": "keyboard_key",
+        "x": 8,
+        "y": 12,
+        "character": "d",
+        "invisible": true
+    }, {
+        "type": "yellow_key",
+        "x": 50,
+        "y": 26,
+        "invisible": true
+    }, {
+        "type": "rock",
+        "x": 16,
+        "y": 8,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 20,
+        "y": 11,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 13,
+        "y": 11,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 24,
+        "y": 12,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 20,
+        "y": 12,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 20,
+        "y": 13,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 22,
+        "y": 14,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 17,
+        "y": 15,
+        "invisible": false
+    }, {
+        "type": "door",
+        "x": 24,
+        "y": 32,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 18,
+        "y": 25,
+        "invisible": false
+    }, {
+        "type": "boy",
+        "x": 32,
+        "y": 22,
+        "data": {
+            "name": "acrostic_kid",
+            "message": "I heard that the key\nto opening the second\ndoor is an acrostic..."
+        },
+        "invisible": true
+    }, {
+        "type": "rock",
+        "x": 16,
+        "y": 28,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 18,
+        "y": 24,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 43,
+        "y": 17,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 41,
+        "y": 19,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 51,
+        "y": 17,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 47,
+        "y": 35,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 63,
+        "y": 18,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 62,
+        "y": 19,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 63,
+        "y": 20,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 54,
+        "y": 22,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 43,
+        "y": 34,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 58,
+        "y": 34,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 59,
+        "y": 33,
+        "invisible": false
+    }, {
+        "type": "rock",
+        "x": 51,
+        "y": 32,
+        "invisible": false
+    }, {
+        "type": "yellow_key",
+        "x": 19,
+        "y": 27,
+        "invisible": true
+    }, {
+        "type": "door",
+        "x": 6,
+        "y": 39,
+        "invisible": false
+    }, {
+        "type": "princess",
+        "x": 6,
+        "y": 42,
+        "data": {
+            "name": "level_5_princess",
+            "levelToLoad": 6,
+            "message": "Well done Shadowy One!\nTo be continued..."
+        }
+    }, {
+        "type": "cat_girl",
+        "x": 65,
+        "y": 31,
+        "data": {
+            "name": "highlight_girl",
+            "message": "When standing on a text\ntry out some of the\ncommands and motions.\nEven if it doesn't match\nthe corrections, you'll\nstill see the range you\nwould be affecting\nwith the command."
+        }
+    }, {
+        "type": "brown_girl",
+        "x": 33,
+        "y": 10,
+        "data": {
+            "name": "dwon_girl",
+            "message": "I was told that if I read the\nword 'down' then I should\nread again since these are\nreally two words, with two\nletters each. I have no clue\nas to what it means, but I\nthought you should know too."
+        }
+    }],
+    "textareas": [{
+        "x": 8,
+        "y": 8,
+        "text": "Deleting with ^xax^xe\nat times is too slow,\nYou can delete\nwhole wor^xlds in one go.\n^rdT^xo^xo^xl followed by w^xo^xo^xl\nthe two in a ^xs^rrhow,\nUntil the next ^xc^rwhord\nall ^rmbelts like ^rsg^rnlow"
+    }, {
+        "x": 18,
+        "y": 18,
+        "text": "\n"
+    }, {
+        "x": 38,
+        "y": 17,
+        "text": "THese are ^dnot ^^dthe ^instructions   \non fInding the ^dyellow ^key       \nget ^dout! ^^dnot ^through the door     \neaSily b^xu^ryt ^dstop ^following me^x!   \n                         \nto^x get^x her we'll fInd ^drabb^it   \nkeyS are^dn't^ common, ^rndo fear \neven if at the moment    \nyou caN't se^rea them ^xthere  \n                         \ndid yOu see it already?  \nwhere ^rtyo^xu look is The key^dboard^ \nor ask the kId^dder^ for a ^rhpint\nnow iT's simple as abc!  \n                         \n^dJust kidding! The key is \nin the text islands.     ^\n                         \n^hdX ^.                        ",
+        "limit": 0,
+        "shouldClean": " "
+    }, {
+        "x": 4,
+        "y": 22,
+        "text": "Before you ^dare ^go^dne^          \nYou must^d not^ be ^ras^rwpare^xd,     \nCorrecting the te^rxsts   \nIsn't a ^rspimple affair. \nContinue you^xr must^dache^      \nYou^xr will take^xs the ^xs^rdhare,\nBut bugs are a^rlverted   \nAnd will ^dnot ^face you there",
+        "limit": 0,
+        "shouldClean": " "
+    }, {
+        "x": 38,
+        "y": 37,
+        "text": "BTW, X does mark the spot"
+    }]
+}

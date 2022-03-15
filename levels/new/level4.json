@@ -1,0 +1,97 @@
+{
+    "levelNumber": 4,
+    "addX": 143,
+    "addY": 138,
+    "bg": ["wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwgwwwwwwww         ", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwgwwwwwwww         ", "wwwwwwwwwwwwwwwwwwwwwwwwwgggggggggggggggggggggggggggggggggggggggggggggw         ", "wwwwwwwwwwwwwwwwwwwwwwwwwg+++++++++++++++++++++++++++++++++++++++++++gw         ", "wwwwwwwwwwwwwwwwwwwwwwwwwg++++++++++++++++++++++++++++++++++ggggggggggw         ", "wwwwwwwwwwwwwwwwwwwwwwwwwggggggggggggggggggggggggggggggggggggwwwwwwwwww         ", "wwwwwwwwwwwwwwwwwwwwwwwwwgwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww         ", "wwwwwwwwwwwwwwwwwwwwwwwwwgwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww         ", "wwwwwwwwwwwwwwwwwwwwwwwww+wwwwww+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww         ", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww         ", "wwwwwwwwwwwwwwwwwwwwwwwww+++w+++++w++wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww         ", "wwwwwwwwwwwwwwwwwwwwwwwwwwwww++++wwwwwww+wwwwwwwwwwwwwwwwwwwwwwwwwwwwww         ", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww+wwwwwwwwwwwwwwwwwwwwwwwwwwwwww         ", "wwwwwwwwwwwwwwwwwwwwwwwwwwwww+++++wwww++++++++++++++++++++www+wwwwwwwww         ", "wwwwwwwwwwwwwwwwwwwwwwwww+wwwwwwwwwwww+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww         ", "wwwwwwwwwwwwwwwwwwwwwwwww+++++wwwwwww+++++w++++++++++++++wwwwwwwwwwwwww         ", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww         ", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww         ", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww      ", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww   ", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww  ", "             wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww  ", "           wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww  ", "           wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww  ", "                       wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww  ", "                          wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww  ", "                            w  www w      ww         w   w       www  w  ", "                           w      ww", "                           w      w", "                           w     ww", "                           w     w ", "                            w    w", "                            wwww"],
+    "entities": [{
+        "type": "keyboard_key",
+        "x": 27,
+        "y": 10,
+        "character": "r"
+    }, {
+        "type": "boy",
+        "x": 25,
+        "y": 7,
+        "data": {
+            "name": "replace_kid",
+            "message": "Oh no!\n\nThe bugs have destroyed part\nof the old stones! Watch your step!\n\n'r' is used to replace a character.\nStand on the character and press\n'r' followed by the character\nyou want to appear there."
+        }
+    }, {
+        "type": "keyboard_key",
+        "x": 29,
+        "y": 3,
+        "character": "E",
+        "invisible": true
+    }, {
+        "type": "tall_tree",
+        "x": 28,
+        "y": 5,
+        "invisible": false
+    }, {
+        "type": "tall_tree",
+        "x": 60,
+        "y": 5,
+        "invisible": false
+    }, {
+        "type": "tall_tree",
+        "x": 69,
+        "y": 4,
+        "invisible": false
+    }, {
+        "type": "tall_tree",
+        "x": 69,
+        "y": 2,
+        "invisible": false
+    }, {
+        "type": "princess",
+        "x": 46,
+        "y": 13,
+        "data": {
+            "name": "level_4_princess",
+            "levelToLoad": 5,
+            "message": "Well done Shadowy One!\nTo be continued..."
+        },
+        "invisible": true
+    }, {
+        "type": "pink_girl",
+        "x": 64,
+        "y": 4,
+        "data": {
+            "name": "why not dark pinky",
+            "message": "The bugs are messing with the\nscreen's brightness! Luckily you\nfound that candle...\nThey are not strong enough to\nmake it last though...\n\nYou have to stop them!"
+        }
+    }, {
+        "type": "cat_girl",
+        "x": 35,
+        "y": 4,
+        "data": {
+            "name": "WORDs girl",
+            "message": "WORDS are separated by\nwhitespaces. It doesn't matter\nwhat's in it, as long as it's\nspace delimited.\n'W', 'E' and 'B' navigate WORDs."
+        }
+    }, {
+        "type": "lights_on",
+        "x": 62,
+        "y": 1,
+        "invisible": false
+    }, {
+        "type": "keyboard_key",
+        "x": 52,
+        "y": 4,
+        "character": "W",
+        "invisible": true
+    }],
+    "textareas": [{
+        "x": 25,
+        "y": 8,
+        "text": "<script>\n        \nfor(var i=^r01;\n    i^r<>100;++i) {\n                \n    a^rlcert(\"I beat the sword^rmfaster!\");\n}             \n^raele^rrct (\"Check out my T-Shi^rrft!\");\n                    \n</script>           ",
+        "limit": 0,
+        "shouldClean": " "
+    }, {
+        "x": 26,
+        "y": 3,
+        "text": "Super^xi^xo^xrcalif^xo^xr^xn^xi^xaragili^xpsticexpialidocious\nis a long word with^xo^xu^xt no W in it.",
+        "limit": 0,
+        "shouldClean": " ",
+        "alwaysSink": false
+    }]
+}

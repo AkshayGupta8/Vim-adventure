@@ -1,0 +1,2173 @@
+@charset "utf-8";
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+    background-color: #1e1e1e;
+    font: 1em Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.code {
+    font: 1em "Courier 10 Pitch", "Courier New", Courier, monospace
+}
+
+input[type='email'],
+input[type='password'] {
+    outline: 0;
+    box-shadow: none;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: .25em;
+    font-size: 1em;
+    background-color: #1e1e1e;
+    vertical-align: middle;
+    color: #fff
+}
+
+input[type='email']:focus,
+input[type='password']:focus {
+    border: 1px solid #69f
+}
+
+.popup-dialog {
+    position: absolute;
+    background-color: #1e1e1e;
+    color: #fff;
+    border: 1px solid #333;
+    display: block;
+    top: 50%;
+    left: 50%;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: #000 .5em .5em .5em;
+    z-index: 5;
+    font-size: 1.2em
+}
+
+#game {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 20px
+}
+
+#thanks {
+    color: #fff;
+    position: absolute;
+    width: 1000px;
+    left: 50%;
+    margin-left: -500px
+}
+
+#thanks .vim-adventures-container {
+    position: relative
+}
+
+#thanks h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000, #000 .1em .1em .2em
+}
+
+#thanks p {
+    line-height: 150%;
+    width: 80%;
+    margin: 0 auto
+}
+
+#thanks .important_info {
+    color: #0f0;
+    font-weight: bold
+}
+
+#thanks .warning_info {
+    color: #ff0;
+    font-weight: bold
+}
+
+#thanks ul {
+    list-style-type: none;
+    line-height: 150%;
+    width: 80%;
+    margin: 30px auto 0
+}
+
+#thanks #back-to-vim-adventures {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center
+}
+
+#no-canvas-dialog {
+    position: absolute;
+    width: 1000px;
+    height: 475px;
+    top: 50%;
+    left: 50%;
+    margin: -237px 0 0 -500px;
+    color: #fff
+}
+
+#no-canvas h1 {
+    font: 5em "Comic Sans MS", Purisa, cursive;
+    color: #fff;
+    margin-left: 110px;
+    margin-bottom: 50px
+}
+
+#no-canvas p {
+    margin: 20px 70px
+}
+
+#no-canvas-princess {
+    position: absolute;
+    top: 300px;
+    left: 650px;
+    height: 170px;
+    width: 100px;
+    background-image: url(../images/Character%20Princess%20Girl%20Big.png)
+}
+
+#shadowOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 10;
+    visibility: hidden
+}
+
+#game .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    z-index: 20;
+    display: none
+}
+
+#game .screen {
+    position: relative;
+    height: 100%;
+    width: 1200px;
+    left: 50%;
+    margin-left: -600px;
+    display: none
+}
+
+#game .active {
+    display: block
+}
+
+#game #game-screen {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin-left: 0
+}
+
+.vim-adventures-container {
+    position: absolute;
+    left: 50%;
+    width: 800px;
+    margin-left: -400px;
+    height: 375px;
+    top: 10%;
+    z-index: 10
+}
+
+.logo {
+    position: absolute;
+    text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000, #000 .1em .1em .2em
+}
+
+.vim {
+    top: 0;
+    font: bold 15em "Courier 10 Pitch", "Courier New", Courier, monospace
+}
+
+.adventures {
+    top: 100px;
+    font: 140px "Comic Sans MS", Purisa, cursive;
+    transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg)
+}
+
+a {
+    color: #ff8
+}
+
+#contact {
+    margin-top: 20px;
+    text-align: center
+}
+
+#title {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: #fff;
+    font-family: "Courier 10 Pitch", "Courier New", Courier, monospace
+}
+
+#title #main-slogan {
+    position: absolute;
+    left: 50%;
+    width: 800px;
+    margin-left: -400px;
+    top: 70%;
+    font-size: 2.5em;
+    z-index: 10
+}
+
+@keyframes show {
+    0% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@-moz-keyframes show {
+    0% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@-o-keyframes show {
+    0% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes show {
+    0% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+#title #start-game {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    width: 600px;
+    margin-left: -300px;
+    text-align: center;
+    text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000, #000 .1em .1em .2em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f00;
+    z-index: 10;
+    animation: show 3s infinite;
+    -webkit-animation: show 3s infinite;
+    -o-animation: show 3s infinite;
+    -moz-animation: show 3s infinite
+}
+
+#title-background {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 7
+}
+
+#princess {
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    margin-left: 320px;
+    height: 170px;
+    width: 100px;
+    background-image: url(../images/Character%20Princess%20Girl%20Big.png);
+    z-index: 10
+}
+
+#title #copyright {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, #000 .1em .1em .2em;
+    text-align: center;
+    line-height: 200%;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    z-index: 10;
+    margin-left: -500px;
+    width: 1000px
+}
+
+#social-buttons {
+    position: absolute;
+    width: 550px;
+    right: 50px;
+    top: 20px;
+    height: 30px;
+    z-index: 10
+}
+
+#twitter-section {
+    position: absolute;
+    right: 325px;
+    top: 5px
+}
+
+#google-section {
+    position: absolute;
+    right: 445px;
+    top: 5px
+}
+
+#facebook-section {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 310px
+}
+
+.fb-profile {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    background: url(../images/FB%20Profile%20Button.png) no-repeat;
+    width: 162px;
+    height: 20px;
+    cursor: pointer
+}
+
+.fb-profile :hover {
+    background: url(../images/FB%20Profile%20Button.png) no-repeat;
+    background-position: 0 -21px
+}
+
+.fb-profile a {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.fb-like {
+    position: absolute
+}
+
+.menu_footer {
+    float: left
+}
+
+#game-menu {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    height: 50px;
+    z-index: 5
+}
+
+#game-menu ul {
+    list-style-type: none;
+    cursor: pointer
+}
+
+#game-menu>ul>li {
+    position: absolute;
+    top: 10px;
+    width: 32px;
+    height: 32px;
+    background-position: center bottom;
+    background-repeat: no-repeat
+}
+
+#game-menu>ul>li>ul {
+    position: absolute;
+    bottom: 42px;
+    left: 0;
+    padding: 10px 0;
+    background-color: rgba(30, 30, 30, 0.5);
+    color: #fff;
+    font-size: 1.2em;
+    visibility: hidden;
+    white-space: nowrap
+}
+
+#game-menu>ul>li:hover {
+    height: 42px;
+    top: 0;
+    background-color: rgba(30, 30, 30, 0.5)
+}
+
+#game-menu>ul>li:hover>ul {
+    visibility: visible
+}
+
+#game-menu.nohover>ul>li:hover>ul {
+    visibility: hidden
+}
+
+#game-menu>ul>li>ul>li {
+    line-height: 175%;
+    padding: 0 20px;
+    position: relative
+}
+
+#game-menu>ul>li>ul>li:hover {
+    color: #0f0
+}
+
+#game-menu>ul>li>ul>li .menu-shortcut {
+    float: right
+}
+
+.game-menu-exit {
+    left: 20px;
+    background-image: url('../images/exit.png')
+}
+
+.game-menu-exit>ul {
+    width: 120px
+}
+
+.game-menu-state {
+    left: 60px;
+    background-image: url('../images/library%20bookmarked.png')
+}
+
+.game-menu-state>ul {
+    width: 390px
+}
+
+.game-menu-keyboard {
+    left: 100px;
+    background-image: url('../images/keyboard.png')
+}
+
+.game-menu-keyboard>ul {
+    width: 330px
+}
+
+.game-menu-user {
+    left: 140px;
+    background-image: url('../images/user_red.png')
+}
+
+.game-menu-user>ul {
+    width: 190px
+}
+
+.game-menu-stats {
+    left: 180px;
+    background-image: url('../images/Ruler.png')
+}
+
+.game-menu-stats>ul {
+    width: 380px
+}
+
+.game-menu-terms-and-conditions {
+    left: 220px;
+    background-image: url('../images/Law-icon.png')
+}
+
+.game-menu-terms-and-conditions>ul {
+    width: 350px
+}
+
+.game-menu-help {
+    left: 260px;
+    background-image: url('../images/help.png')
+}
+
+.game-menu-help>ul {
+    width: 355px
+}
+
+.game-menu-buy {
+    left: 300px;
+    background-image: url('../images/payment-card.png')
+}
+
+#game-menu-sound {
+    position: absolute;
+    top: 10px;
+    left: 360px;
+    background-image: url('../images/music%202.png');
+    width: 32px;
+    height: 32px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+
+#game-menu-volume {
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    cursor: pointer;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #fff;
+    box-shadow: #000 .1em .1em .2em
+}
+
+#game-menu-volume .indicator {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/Water%20Block%20Big.png);
+    background-position: -20px -100px;
+    background-size: 400px 200px;
+    box-shadow: #000 .1em .1em .2em
+}
+
+#terms-notification {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    padding: 0 2px;
+    border: 1px solid #f00;
+    background-color: #a00;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: bold
+}
+
+#accept-terms {
+    color: #000;
+    font-weight: bold;
+    background-color: rgba(255, 255, 0, 0.5)
+}
+
+#accept-terms:hover {
+    background-color: rgba(30, 30, 30, 0)
+}
+
+#arrow-keys-dialog {
+    margin: -240px 0 0 -300px;
+    width: 550px
+}
+
+#arrow-keys-dialog p {
+    line-height: 175%
+}
+
+#arrow-keys-dialog p:last-of-type {
+    text-align: center;
+    color: #aaa
+}
+
+.error_header {
+    font-size: 3em;
+    text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000, #000 .1em .1em .2em;
+    color: #f6f;
+    text-align: center;
+    padding-top: .1em
+}
+
+#double-login-dialog>p:first-of-type {
+    padding-top: 30px
+}
+
+#license-expired-dialog>p:last-of-type {
+    padding-top: 20px
+}
+
+#double-login-dialog>p:last-of-type {
+    padding-top: 40px
+}
+
+#license-expired-dialog p,
+#double-login-dialog p {
+    line-height: 175%
+}
+
+#double-login-dialog {
+    margin: -240px 0 0 -335px;
+    width: 670px;
+    height: 450px;
+    text-align: center
+}
+
+#license-expired-dialog {
+    margin: -226px 0 0 -365px;
+    width: 730px;
+    text-align: center
+}
+
+#license-expired-dialog ul {
+    list-style-type: none
+}
+
+#license-expired-dialog h2 {
+    padding: .5em
+}
+
+.top-caption {
+    font-size: 70%
+}
+
+#timed-confirm-terms,
+#buyer-confirm-terms {
+    margin-top: 1.75em
+}
+
+#timed-confirm-terms+label,
+#buyer-confirm-terms+label {
+    display: inline-block;
+    padding-left: 10px
+}
+
+#timed-logout-notice+label {
+    display: inline-block;
+    margin-left: 10px
+}
+
+.timed-terms-link,
+.timed-privacy-link,
+.terms-link,
+.privacy-link {
+    cursor: pointer
+}
+
+#timed-dialog p,
+#email-dialog p,
+#gift-dialog p {
+    line-height: 175%;
+    text-align: left
+}
+
+#gift-dialog p:not(:first-of-type) {
+    margin-top: 1em
+}
+
+#email-dialog input:not([type='checkbox']),
+#timed-dialog input:not([type='checkbox']),
+#gift-dialog input:not([type='checkbox']) {
+    display: inline-block;
+    width: 400px;
+    margin-top: 1em
+}
+
+#confirm-timed-button,
+#confirm-email-button {
+    display: inline-block;
+    margin-top: 1em
+}
+
+#confirm-gift-button {
+    display: table;
+    margin: 1.75em auto 0;
+    position: relative
+}
+
+#confirm-gift-button .caption {
+    display: table-cell;
+    vertical-align: middle
+}
+
+#gift-icon {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin-left: 1em;
+    background-image: url(../images/box1_48.png)
+}
+
+#email-dialog,
+#timed-dialog,
+#gift-dialog {
+    text-align: center
+}
+
+#timed-dialog,
+#email-dialog {
+    width: 630px;
+    margin: -200px 0 0 -315px
+}
+
+#gift-dialog {
+    width: 680px;
+    margin: -245px 0 0 -340px
+}
+
+#email-message-tab,
+#timed-message-tab,
+#gift-message-tab {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    height: 40%;
+    margin: auto;
+    z-index: 6;
+    visibility: hidden
+}
+
+#email-message-tab p,
+#timed-message-tab p,
+#gift-message-tab p {
+    text-align: center;
+    vertical-align: middle;
+    height: 100%
+}
+
+#to-be-continued {
+    position: absolute;
+    height: 150px;
+    width: 700px;
+    top: 50%;
+    left: 50%;
+    margin: -75px 0 0 -350px;
+    z-index: 5;
+    visibility: hidden
+}
+
+#to-be {
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000, #000 .1em .1em .2em
+}
+
+#more-information a {
+    font-weight: bold;
+    visibility: hidden;
+    cursor: pointer
+}
+
+#more-information {
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    font-size: 1.5em
+}
+
+.game-dialog {
+    position: absolute;
+    top: 40px;
+    bottom: 80px;
+    left: 50%;
+    z-index: 11;
+    font-size: 1.2em;
+    overflow: auto;
+    line-height: 150%;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 2em;
+    padding-bottom: 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-shadow: #000 .5em .5em .5em;
+    display: none
+}
+
+.ff-bottom-padding-fix {
+    padding-bottom: 2em
+}
+
+#credits {
+    width: 800px;
+    margin-left: -400px
+}
+
+.game-dialog h1,
+.game-dialog h2 {
+    font-weight: bold;
+    text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000, #000 .1em .1em .2em;
+    text-align: center
+}
+
+.game-dialog h1 {
+    font-size: 2.5em;
+    margin: .5em 0 1em
+}
+
+.game-dialog h2 {
+    font-size: 1.75em;
+    margin: 1em 0
+}
+
+#credits #attribution_list ul {
+    margin-top: 10px
+}
+
+#credits #attribution_list ul li {
+    margin-left: 20px
+}
+
+#register-screen {
+    width: 1100px;
+    margin-left: -550px;
+    text-align: center
+}
+
+.no-timed-plan #register-screen {
+    width: 900px;
+    margin-left: -450px
+}
+
+p.offer {
+    margin-top: 20px;
+    text-align: center
+}
+
+.offer-text {
+    text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000, #000 .1em .1em .2em;
+    line-height: 175%;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: block
+}
+
+.emph {
+    color: #0f0;
+    font-size: 1.6em;
+    font-weight: bold
+}
+
+.li-emph {
+    color: #0f0;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000, #000 .1em .1em .2em
+}
+
+.old {
+    position: relative;
+    color: #fff
+}
+
+.old:before {
+    position: absolute;
+    content: " ";
+    border: 1px solid #000;
+    border-radius: 2px;
+    height: .08em;
+    width: 1.85em;
+    top: .55em;
+    left: .35em;
+    transform: rotate(-35deg);
+    background: #f00
+}
+
+.plans {
+    position: relative;
+    margin: 1em 0;
+    text-align: center
+}
+
+.no-timed-plan .plans {
+    margin: 1em 0 1em 2em
+}
+
+.plan {
+    float: left
+}
+
+.single-plan {
+    width: 44%
+}
+
+.no-timed-plan .single-plan {
+    width: 56%
+}
+
+.group-plan {
+    width: 27%
+}
+
+.no-timed-plan .group-plan {
+    width: 42%
+}
+
+.timed-plan {
+    width: 27%
+}
+
+.no-timed-plan .timed-plan {
+    display: none
+}
+
+.plan ul {
+    padding-top: 30px;
+    clear: both;
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 1.5em;
+    text-align: left
+}
+
+.group-plan ul {
+    width: 100%;
+    margin-left: .5em
+}
+
+.no-timed-plan .group-plan ul {
+    margin-left: 2em
+}
+
+.timed-plan ul {
+    width: 105%;
+    margin-left: 1.5em
+}
+
+.buy-button {
+    width: 9.25em;
+    margin: 1.5em .75em;
+    display: inline-block;
+    position: relative
+}
+
+.no-timed-plan .buy-button {
+    width: 9.5em
+}
+
+.no-timed-plan .wider-buy-button,
+.wider-buy-button {
+    width: 11.25em
+}
+
+.no-timed-plan #another-timed-license {
+    display: none
+}
+
+.new-button {
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 10px 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 2px 2px 2px #000;
+    -moz-box-shadow: 2px 2px 2px #000;
+    box-shadow: 2px 2px 2px #000;
+    text-shadow: 1px 1px 2px #000;
+    color: #fff;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    text-align: center
+}
+
+.new-button:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc
+}
+
+.group-pic,
+.timer-pic,
+.gift-pic {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 48px;
+    height: 48px
+}
+
+.group-pic {
+    background-image: url(../images/group-icon.png)
+}
+
+.gift-pic {
+    background-image: url(../images/box1_48.png)
+}
+
+.timer-pic {
+    background-image: url(../images/date-48.png)
+}
+
+#buy_now {
+    position: absolute;
+    overflow: hidden
+}
+
+#buy_now form {
+    display: none
+}
+
+#shortcuts_included {
+    margin: 20px 0;
+    text-align: center
+}
+
+ul.references {
+    list-style-type: none;
+    text-align: center
+}
+
+li.quote {
+    display: inline-block;
+    margin: 15px;
+    width: 230px;
+    color: #fff;
+    vertical-align: top
+}
+
+li.quote:last-of-type {
+    margin-right: 0
+}
+
+q {
+    quotes: "“""”""‘""’"
+}
+
+q::before,
+q::after {
+    font-size: 1.5em;
+    font-family: Georgia, serif;
+    font-style: italic
+}
+
+#instructions {
+    width: 900px;
+    margin-left: -450px;
+    z-index: 10
+}
+
+#instructions h1 {
+    padding: 20px 0
+}
+
+#instructions p {
+    margin-top: 20px
+}
+
+#stats {
+    width: 1100px;
+    margin-left: -550px
+}
+
+#stats h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 30px 0 40px 0;
+    text-align: center
+}
+
+#ruler-princess {
+    position: absolute;
+    top: 30px;
+    right: 150px;
+    height: 109px;
+    width: 66px;
+    background: url('../images/stats_princess.png') no-repeat
+}
+
+#level-column {
+    width: 250px
+}
+
+#keys-column {
+    width: 150px
+}
+
+.locked {
+    color: #666
+}
+
+#stats table {
+    padding: 20px;
+    border-bottom: 1px solid #666
+}
+
+#stats th {
+    height: 40px
+}
+
+#stats tbody {
+    border: 1px solid #666
+}
+
+#stats tr td {
+    text-align: center;
+    white-space: nowrap;
+    padding: 0 20px;
+    height: 32px;
+    position: relative;
+    vertical-align: bottom
+}
+
+#stats tr th {
+    text-align: center
+}
+
+#stats tr td:nth-child(1),
+#stats tr td:nth-child(2) {
+    text-align: left;
+    padding: 0
+}
+
+#stats tr td:nth-child(1) {
+    padding-right: 2em
+}
+
+#stats tr #stat-tbl-first-cell {
+    height: 50px
+}
+
+#stats #stats-tbl-last {
+    height: 50px
+}
+
+#stats #stats-tbl-last td {
+    vertical-align: top
+}
+
+#stats p {
+    text-align: center
+}
+
+.spacer {
+    width: 60px
+}
+
+.group-result {
+    cursor: pointer;
+    position: relative
+}
+
+.best {
+    position: absolute;
+    bottom: 40px;
+    right: -60px;
+    background-color: #ffd700;
+    padding: 10px;
+    display: none;
+    border-radius: 10px;
+    border: 1px solid #fa0;
+    box-shadow: #000 .1em .1em .2em;
+    color: #000
+}
+
+.group-result:hover>.best,
+.medal:hover>.best {
+    display: block
+}
+
+.record {
+    position: relative;
+    color: #ffd700;
+    font-weight: bold
+}
+
+.group-header {
+    color: #ffd700;
+    font-weight: bold;
+    width: 100px
+}
+
+.personal-header {
+    width: 100px
+}
+
+.buy_now_pink_girl {
+    position: absolute;
+    bottom: -25px;
+    right: -20px;
+    width: 60px;
+    height: 53px;
+    background-image: url(../images/Character%20Boy.png);
+    background-position: 0 -35px
+}
+
+.buy_now_pink_girl .pink_girl_says {
+    z-index: 12;
+    visibility: hidden
+}
+
+.buy_now_pink_girl:hover .pink_girl_says {
+    visibility: visible
+}
+
+.pink_girl_says {
+    position: absolute;
+    display: inline-block;
+    top: -100px;
+    left: 50px;
+    width: 215px;
+    background-image: url(../images/SpeechBubble.png);
+    background-size: 215px 150px;
+    background-repeat: no-repeat;
+    background-position: 0 -30px;
+    font-size: .8em;
+    padding: 47px 7px;
+    line-height: 150%;
+    color: #000;
+    text-shadow: none
+}
+
+.medal {
+    height: 32px;
+    background-image: url('../images/medal_gold_3.png');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+
+#stats-tbl-last .medal {
+    background-position: center top
+}
+
+#stats p {
+    margin-left: 20px
+}
+
+#stats>p:first-of-type {
+    margin-top: 20px
+}
+
+#stats p:last-of-type {
+    margin-top: 20px;
+    text-align: center;
+    color: #aaa
+}
+
+#new-terms {
+    width: 680px;
+    margin-left: -340px;
+    top: 180px;
+    height: 240px;
+    overflow: hidden
+}
+
+#terms-law-book {
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    height: 64px;
+    width: 64px;
+    background: url('../images/Law-icon%20Big.png') no-repeat
+}
+
+#new-terms-container {
+    margin-top: 20px
+}
+
+#confirm-new-terms-button {
+    display: block;
+    width: 25em;
+    margin: 1.5em auto 0
+}
+
+#new-terms-message {
+    display: none;
+    margin-top: 2.5em;
+    text-align: center
+}
+
+#colon-dialog-cursor {
+    color: #ff0
+}
+
+#colon-command {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    right: 50px;
+    text-align: left;
+    white-space: pre;
+    padding: 20px;
+    border: 1px solid #ff0;
+    border-radius: 10px;
+    box-shadow: #000 .1em .1em .2em;
+    background-color: #000;
+    color: #fff;
+    visibility: hidden;
+    z-index: 7
+}
+
+#user-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    margin: -60px 0 0 -225px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ff0;
+    border-radius: 10px;
+    box-shadow: #000 .1em .1em .2em;
+    background-color: #ff3;
+    color: #000;
+    visibility: hidden;
+    z-index: 5
+}
+
+#login-dialog,
+#signup-dialog,
+#forgot-password-dialog {
+    width: 475px;
+    margin: -120px 0 0 -220px;
+    z-index: 5
+}
+
+.login-trio-form input:not([type="checkbox"]) {
+    display: inline-block;
+    width: 99%;
+    margin-bottom: 1.5em
+}
+
+.login-trio-form input[type="password"] {
+    width: 47%
+}
+
+#login-form input[type="password"] {
+    width: 62%
+}
+
+.login-trio-form input[type="password"]+input[type="password"] {
+    margin-left: 3.8%
+}
+
+.login-trio-form a {
+    font-size: .8em;
+    cursor: pointer
+}
+
+#login-button {
+    display: inline-block;
+    margin-top: -1.5em;
+    margin-left: 15.25%
+}
+
+#login-form label {
+    top: -1px;
+    display: inline-block;
+    padding-left: .5em;
+    margin-bottom: 1em
+}
+
+#signup-button {
+    display: inline-block;
+    margin-top: -0.2em;
+    margin-left: 2.95em
+}
+
+#forgot-password-button {
+    display: inline-block;
+    margin-top: -0.2em;
+    margin-left: 2.3em
+}
+
+#login-dialog {
+    height: 264px
+}
+
+#signup-dialog {
+    height: 216px
+}
+
+#forgot-password-dialog {
+    height: 164px
+}
+
+#login-message-tab,
+#signup-message-tab,
+#forgot-password-message-tab {
+    display: table;
+    height: 100%
+}
+
+#login-message,
+#signup-message,
+#forgot-password-message {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 475px
+}
+
+.error {
+    color: #f00
+}
+
+.processing {
+    color: #ff0
+}
+
+.ok {
+    color: #0f0
+}
+
+#show-valid-keys-dialog {
+    width: 925px;
+    height: 372px;
+    margin: -160px 0 0 -463px;
+    color: #333
+}
+
+#show-valid-keys-dialog ul {
+    position: relative;
+    clear: left;
+    list-style-type: none
+}
+
+#show-valid-keys-dialog ul li {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: #000 .1em .1em .2em;
+    color: #555;
+    font: 1em "Courier 10 Pitch", "Courier New", Courier, monospace
+}
+
+#key-description {
+    position: absolute;
+    width: 800px;
+    left: 75px;
+    bottom: 40px;
+    text-align: center;
+    color: #fff
+}
+
+.key_up {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding: 4px 0 0 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+
+.key_down {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-left: 10px;
+    top: 50%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+.key_up:hover,
+.key_down:hover,
+#show-valid-keys-dialog ul li .key_up.active:hover,
+#show-valid-keys-dialog ul li .key_down.active:hover,
+#show-valid-keys-dialog ul li .key_up.disabled:hover,
+#show-valid-keys-dialog ul li .key_down.disabled:hover {
+    color: #ff6;
+    cursor: pointer
+}
+
+#show-valid-keys-dialog ul li .active {
+    color: #fff
+}
+
+#show-valid-keys-dialog ul li .disabled {
+    color: #555
+}
+
+#show-valid-keys-dialog ul li.key_inactive {
+    border: 1px solid #333
+}
+
+#show-valid-keys-dialog ul li.backspace {
+    width: 80px
+}
+
+#show-valid-keys-dialog ul li.tab_key,
+#show-valid-keys-dialog ul li.pipe {
+    width: 65px
+}
+
+#show-valid-keys-dialog ul li.capslock {
+    width: 85px
+}
+
+#show-valid-keys-dialog ul li.enter {
+    width: 105px
+}
+
+#show-valid-keys-dialog ul li.shift {
+    width: 125px
+}
+
+#switch-keyboard-layout {
+    position: absolute;
+    padding: 10px;
+    font-size: .65em;
+    color: #080;
+    cursor: pointer;
+    text-align: center
+}
+
+#switch-keyboard-layout:hover {
+    color: #0f0
+}
+
+#button-desc {
+    top: 5%;
+    right: 50px;
+    width: 500px;
+    box-shadow: #000 .5em .5em 1em;
+    display: block;
+    opacity: 0;
+    -ms-transition: opacity .5s linear;
+    -o-transition: opacity .5s linear;
+    -moz-transition: opacity .5s linear;
+    -webkit-transition: opacity .5s linear;
+    transition: opacity .5s linear
+}
+
+#button-desc.shown {
+    opacity: 1
+}
+
+#button-desc h1 {
+    font-size: 2em;
+    text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000, #000 .1em .1em .2em;
+    float: left
+}
+
+#button-desc .caption {
+    font-size: .75em;
+    color: #aaa
+}
+
+#button-desc .key-type {
+    float: left;
+    padding-left: 20px;
+    margin-top: 10px;
+    clear: right;
+    font-weight: bold;
+    font-size: 1.2em
+}
+
+.clearBoth {
+    clear: both
+}
+
+#button-desc p {
+    margin-top: 20px;
+    line-height: 150%
+}
+
+.example_text {
+    border: 1px solid #fff
+}
+
+#button-desc .cursor {
+    color: #000;
+    background-color: #ff0
+}
+
+#button-desc .insert-cursor {
+    border-left: 2px solid #ff0
+}
+
+#button-desc .select {
+    color: #000;
+    background-color: #09f
+}
+
+#button-desc .command-cursor {
+    border: 1px solid #aaa
+}
+
+.word,
+.sentence,
+.paragraph,
+.text-object-range {
+    border: 1px solid #aa0
+}
+
+.abbr {
+    color: #0af;
+    font-weight: bold
+}
+
+.target-location {
+    position: relative;
+    color: #0af;
+    font-weight: bold
+}
+
+.target-location-tip {
+    position: absolute;
+    top: -26px;
+    background-color: #00a;
+    white-space: nowrap;
+    font-size: .8em;
+    color: #fff
+}
+
+.two-letters {
+    left: -3px
+}
+
+.three-letters {
+    left: -8px
+}
+
+.target-location-tip-down {
+    position: absolute;
+    bottom: -28px;
+    background-color: #00a;
+    white-space: nowrap;
+    font-size: .8em;
+    color: #fff
+}
+
+.tobj-range-tip-location {
+    position: relative
+}
+
+.tobj-range-tip {
+    position: absolute;
+    top: -30px;
+    background-color: #00a;
+    white-space: nowrap;
+    font-size: .8em;
+    color: #fff
+}
+
+.tobj-range-tip-down {
+    position: absolute;
+    bottom: -32px;
+    background-color: #00a;
+    white-space: nowrap;
+    font-size: .8em;
+    color: #fff
+}
+
+.target-location-tip:after,
+.tobj-range-tip:after {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-top-color: #00a;
+    border-width: 6px;
+    left: 50%;
+    margin-left: -6px
+}
+
+.target-location-tip-down:after,
+.tobj-range-tip-down:after {
+    bottom: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: #00a;
+    border-width: 6px;
+    left: 50%;
+    margin-left: -6px
+}
+
+#ending_container {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -275px 0 0 -350px;
+    color: #fff;
+    font: 2em "Courier 10 Pitch", "Courier New", Courier, monospace
+}
+
+#ending_container p {
+    text-align: center;
+    margin-top: 20px
+}
+
+#ending_pic_container {
+    width: 300px;
+    height: 120px;
+    position: relative;
+    display: block;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: 20px;
+    padding-bottom: 20px
+}
+
+#ending_pic_princess {
+    position: absolute;
+    top: -35px;
+    right: 30px;
+    height: 170px;
+    width: 100px;
+    background-image: url(../images/Character%20Princess%20Girl%20Big.png)
+}
+
+#ending_bug_container {
+    width: 300px;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    margin-left: -150px
+}
+
+#ending_pic_bug {
+    position: absolute;
+    bottom: 0;
+    left: -180px;
+    height: 170px;
+    width: 100px;
+    background-image: url(../images/Enemy%20Bug%20Big.png);
+    visibility: hidden
+}
+
+#what_happened_bubble {
+    position: absolute;
+    bottom: 98px;
+    left: -235px;
+    height: 218px;
+    width: 130px;
+    background-size: 100%;
+    background-image: url(../images/SpeechBubble.png);
+    visibility: hidden
+}
+
+#what_happened_text {
+    position: absolute;
+    top: 95px;
+    left: 20px;
+    font: 14px Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    color: black;
+    text-align: center
+}
+
+#ending_pic_cursor {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    width: 100px;
+    height: 70px;
+    -webkit-transform: skew(20deg);
+    transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    background: rgba(100, 100, 100, 0.8)
+}
+
+@keyframes blinker {
+    from {
+        opacity: 1.0
+    }
+
+    to {
+        opacity: .0
+    }
+}
+
+@-webkit-keyframes blinker {
+    from {
+        opacity: 1.0
+    }
+
+    to {
+        opacity: .0
+    }
+}
+
+@-o-keyframes blinker {
+    from {
+        opacity: 1.0
+    }
+
+    to {
+        opacity: .0
+    }
+}
+
+@-moz-keyframes blinker {
+    from {
+        opacity: 1.0
+    }
+
+    to {
+        opacity: .0
+    }
+}
+
+.css3-blink {
+    animation-name: blinker;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1.0, 0, 0, 1.0);
+    animation-duration: 1s;
+    -webkit-animation-name: blinker;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(1.0, 0, 0, 1.0);
+    -webkit-animation-duration: 1s;
+    -o-animation-name: blinker;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: cubic-bezier(1.0, 0, 0, 1.0);
+    -o-animation-duration: 1s;
+    -moz-animation-name: blinker;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: cubic-bezier(1.0, 0, 0, 1.0);
+    -moz-animation-duration: 1s
+}
+
+@keyframes flipper {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes flipper {
+    from {
+        -webkit-transform: rotate(0deg)
+    }
+
+    to {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-o-keyframes flipper {
+    from {
+        -o-transform: rotate(0deg)
+    }
+
+    to {
+        -o-transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes flipper {
+    from {
+        -moz-transform: rotate(0deg)
+    }
+
+    to {
+        -moz-transform: rotate(360deg)
+    }
+}
+
+.css3-flip {
+    animation: flipper 3s 1;
+    -webkit-animation: flipper 3s 1;
+    -o-animation: flipper 3s 1;
+    -moz-animation: flipper 3s 1
+}
+
+.css3-glow {
+    color: #aaa;
+    text-shadow: 0 0 2em #fff
+}
+
+#banners {
+    position: absolute;
+    top: 35px;
+    left: 60px;
+    z-index: 10;
+    font-size: 125%;
+    text-shadow: 1px 1px #000;
+    font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif
+}
+
+#banners ul {
+    list-style-type: none;
+    margin-bottom: 2em
+}
+
+#banners li {
+    display: inline-block;
+    margin-right: 30px;
+    background: #600;
+    color: #fff426;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: #000 .2em .2em .5em;
+    border: 1px solid #f00;
+    cursor: pointer
+}
+
+#banners a {
+    color: inherit;
+    text-decoration: none
+}
+
+.banner span {
+    display: inline-block;
+    line-height: 1.5em;
+    text-align: center
+}
+
+.cc_banner-wrapper {
+    z-index: 9001;
+    position: relative
+}
+
+.cc_container .cc_btn {
+    cursor: pointer;
+    text-align: center;
+    font-size: .6em;
+    transition: font-size 200ms;
+    line-height: 1em
+}
+
+.cc_container .cc_message {
+    font-size: .6em;
+    transition: font-size 200ms;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em
+}
+
+.cc_container .cc_logo {
+    display: none;
+    text-indent: -1000px;
+    overflow: hidden;
+    width: 100px;
+    height: 22px;
+    background-size: cover;
+    opacity: .9;
+    transition: opacity 200ms
+}
+
+.cc_container .cc_logo:hover,
+.cc_container .cc_logo:active {
+    opacity: 1
+}
+
+@media screen and (min-width:500px) {
+    .cc_container .cc_btn {
+        font-size: .8em
+    }
+
+    .cc_container .cc_message {
+        font-size: .8em
+    }
+}
+
+@media screen and (min-width:768px) {
+    .cc_container .cc_btn {
+        font-size: 1em
+    }
+
+    .cc_container .cc_message {
+        font-size: 1em;
+        line-height: 1em
+    }
+}
+
+@media screen and (min-width:992px) {
+    .cc_container .cc_message {
+        font-size: 1em
+    }
+}
+
+@media print {
+
+    .cc_banner-wrapper,
+    .cc_container {
+        display: none
+    }
+}
+
+.cc_container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    padding: 10px 15px 50px
+}
+
+.cc_container .cc_btn {
+    padding: 8px 16px;
+    background-color: #f1d600;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    right: 15px;
+    text-align: center
+}
+
+@media screen and (min-width:500px) {
+    .cc_container {
+        left: initial;
+        right: 20px;
+        bottom: 20px;
+        width: 300px;
+        padding-bottom: 40px
+    }
+
+    .cc_container .cc_btn {
+        right: 15px
+    }
+
+    .cc_container .cc_logo {
+        display: none;
+        position: absolute;
+        bottom: 8px;
+        left: calc(50% - 50px)
+    }
+}
+
+@media screen and (min-width:768px) {
+    .cc_container {
+        padding-bottom: 50px
+    }
+
+    .cc_container .cc_message {
+        font-size: 1em
+    }
+}
+
+.cc_container {
+    background: #222;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+    box-sizing: border-box
+}
+
+.cc_container::-moz-selection {
+    background: #ff5e99;
+    color: #fff;
+    text-shadow: none
+}
+
+.cc_container .cc_btn,
+.cc_container .cc_btn:visited {
+    color: #000;
+    background-color: #f1d600;
+    transition: background 200ms ease-in-out, color 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    -webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    border-radius: 5px;
+    -webkit-border-radius: 5px
+}
+
+.cc_container .cc_btn:hover,
+.cc_container .cc_btn:active {
+    background-color: #fff;
+    color: #000
+}
+
+.cc_container a,
+.cc_container a:visited {
+    text-decoration: none;
+    color: #31a8f0;
+    transition: 200ms color
+}
+
+.cc_container a:hover,
+.cc_container a:active {
+    color: #b2f7ff
+}
+
+@-webkit-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(20px);
+        transform: translateX(20px)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(20px);
+        -ms-transform: translateX(20px);
+        transform: translateX(20px)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+.cc_container {
+    -webkit-animation-duration: .6s;
+    animation-duration: .6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: .8s;
+    -moz-animation-duration: .8s;
+    -o-animation-duration: .8s;
+    animation-duration: .8s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight
+}

@@ -1,0 +1,1754 @@
+{
+    "buffers": [{
+        "buffer": "ground",
+        "levelNumber": 14,
+        "addX": 400,
+        "addY": 400,
+        "topX": 2,
+        "topY": 21,
+        "cursorX": 16,
+        "cursorY": 35,
+        "bg": ["wwwwwg.gwwwwwwwwwMMMMMMMwwwwMMMMwwwwwwwwMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwg.gwwwwwwwwMMMMMMMMwwwMMMMwwwwwwMwMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwg.gwwwwwwwMMMMMwwMMMwwMMMMwwwwwwMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwg.gwwwwwwMMMMMMwwwMMMMMMMwwwwwwwwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "Mwwwwg.gwwwwwMMMMwwwwwwwMMMMMwwwwwwwwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "MMwwwg.gwwwwMMMMwwwwwwwwMMMMMwwwwwwwwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "MMwwwg.gwwwMMMMwwwwwwwwwMMMMMMMwwwwwMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "MMMwwg.gwMMMMMwwwwwwwwwMMMMMMMMwwwwwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wMMMwg.gMMMMMwwwwwwwwwwMMMMwMMMMwwwwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwMMMg.MMMMwwwwwwwwwwwMMMMMwwwMMMwwwMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwMMMMMMMwwwwwwwwwwwMMMMMwwwwwMMMwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwMMMMwwwwwwwwwwwwwMMMMwwwwwwwMMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwMMMwwwwwwwwwwwwwMMMMMwwwwwwwwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwMMMMMMwwwwwwwwwwwMMMMMMwwwwwwwwMMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "ggMMMMMMgggggwwwwwwMMMMMwwwwwwwwMMMMMMMMwwwwwwwwwwwwwwwwwwwMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "MMMMM.MMMM...++++++MMMM+++++++++MMMMMMMMMMwwwwwwwwwwwwwwwwMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "MMMggggMMMM.gwwwwwMMMMMwwwwwwwwwMMwwwMMMMMMMwwwwwwwwwwwwwMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "MMwwwwwwMMMMgMwwwMMMMMwwwwwwwwMMMMwwwwMMMMMMMMwwwwwwwwwwwMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "MwwwwwwwwMMMMMwwMMMMMMwwwwwwwMMMMwwwwwwwwMMMMwwwwwwwwwwwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwgMMMMMMMMMwwwwwwwwMMMMwwwwwwwwwwMMMMwwwwwwwwwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwg.MMMMMMMwwwwwwwMMMMMMwwwwwwwwwwwMMMMwwwwwwwMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwww______g.gMMMMMwwwwwwwMMMMMMwwwwwwwwwwwwwMMMMwwwwwMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwww_WWWW_g..+MMMM+++++++MMMMM+++++wwwwwwwwwwMMMMwwwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwww_WWWW_g.gwMMMM+++++++MMMMM++wwwwwwwwwwwwwwMMMMwMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "Mwww_WWWW_g.gwMMMwwwwwwwwMMMMwwwwwwwwwwwwwwwwwwMMMMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "MMww_WWWw_g.gMMMMMwwwwwwMMMMwwwwwwwwwwwwwwwwwwwwMMMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "MMMw___W__gMMMMMMMwwwwwwMMMMMMwwwwwwwwwwwwwwwwwMMMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "MMMMMgg.gMMMMwwwMMMwwwwMMMMMMMwwwwwwwwwwwwwwwwwMMMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", ".MMMMM..MMMMgwwwMMMMwwwMMMMwMMMwwwwwwwwwwwwwwwMMMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "gMMMMMgMMMM.gwwwwwMMMwMMMMwwwMMMwwwwwwwwwwwwwMMMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "MMMMMMMMMMg.gwwwwwwMMMMMMwwwwMMMwwwwwwwwwwwwMMMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wMMMMMMMMw++++++++++MMMM+++++MMMM+wwwwwwwwwwMMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwMMMMMM++++++++++MMM+++++++MMM++++wwwwwwwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwMMMMMM++++++++MMMM++++++++MMM+wwwwwwwwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwMMMMMMMM+++++++MMMMM++++++++MMM+wwwwwwMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwMMMMwwwMMMMwwg.MMMMMMMwwwwwwwMMMMMMwwwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwMMMMwwwwwMMMwwgMMMMMMMMMwwwwwwwMMMMMMwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wMMMMwwwwwwwMMMwgMMwwMMMMMMwwwwwwwwMMMMMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wMMMwwwwwwwwwMMwMMMwwwwMMMMMwwwwwwwwwMMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "MMMMwwwwwwwwwMMMMMMwwwwMMMMMMwwwwwwwMMMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "MMMw++++++++++MMMMMM+++MMMMMMwwwwwMMMMMMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "MMMw++++++++++MMMMM++++MMMMMM++wwMMMMMMMMMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "MMwwwwwwwwwwMMMMMMgwwwwwwwMMMMwwMMMMwwMwwMMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww           ", "MMwwwwwwwwwMMMMMMMggggwwwwMMMMMMMMMMwwwwwwMMMMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwww            ", "M wwwwwwwwMMMMMMMMM..gwwwwwwMMMMMwwwwwwwwwwwMMMMMMwwwwwwwwwwwwwwwwwwwwwwwww              ", "MwwwwwwwwwMMMMMwggMM.gwwwwwwMMMMMwwwwwwwwwwwwwMMMMMMwwwwwwwwwwwwwwwwwwwwwwww             ", "MMwwwwwwMMMMMMwwwwMMMgwwwwwwwMMMMMwwwwwwwwwwwwwwMMMMMMMw  w  w                            ", "MMMwwwwwwMMMMwwwwwwMMMMwwwwwMMMMMMwwwwwwwwwwwwwwwwMMMMMwwwwwwwwwwwwwwwwwwwwwwww           ", "MMMMwwwwMMMMMwwwwwwMMMMMwwMMMMwwMMMwwwwwwwwwwwwwwwwwwMMMwwwwwwwwwwwwwwwwwwwww             ", "wwMMMwwwMMMwwwwwwwwg.MMMMMMMMMwwwMMMwwwwwwwwwwwwwwwwwMMMMMMMwwwwwwwwwwwwwwwww             ", "wwwMMMwMMMMwwwwwwwwg.MMMMMMMMMwwwwMMMwwwwwwwwwwwwwwwwwMMMMwwMwwwwwwwwwwwwww", "wwwwMMMMMMwwwwwwwwwg.gwwwMMMMMMwwwwMMMwwwwwwwwwwwwwwwwwMMMwwwwwwwwwwwwwwwwww             ", "wwwwMMMMMwwwwwwwwwwg.gwMMMMMMMMMwwwwMMMwwwwwwwwwwwwwwwwMMMMwwwwwwwwwwwwwwwwwwww          ", "wwwwMMMMM++++++++++++++MMM++MMMM++++MMMMwwwwwwwwwwwwwwwwMMwwwwwwwwwwwwwwwwwwwww", "wwwwMMMMMMwwwwwwwwwg.MMMMwwwMMMMwwwwwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwww                  ", "wwMMMMMwMMMwwwwwwwwg.MMwwwwwwMMMMwwwwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww               ", "wwMMMMwwMMMMMwwwwwwMMMwwwwwwwwMMMMwwwwMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww              ", "wMMMMwwwwMMMMwwwwwMMMgwwwwwwwwMMMMwwwwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww            ", "MMMMwwwwwwMMMMwwwMMM.gwwwwwwwwwMMMMwwwwMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwww                    ", "MMMwwwwwwwwwMMMMwMMM.gwwwwwwwwwwMMMwwwwwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww                 ", "MMwwwwwwwwwwwMMMMMMg.gwwwwwwwwwwwMMMwwwwwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww                 ", "MwwwwwwwwwwwwwMMMMMg.gwwwwwwwwwwwMMMMwwwwwMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww               ", "wwwwwwwwwwwwwwMMMMwg.gwwwwwwwwwwwwMMMwwwwwMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww             ", "wwwwwwwwwwwwwMMMMMMM.gwwwwwwwwwwwwwMMMwwwwwMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww          ", "wwwwwwwwwwwwMMMwwMMM.MwwwwwwwwwwwwwwMMMwwwwwMMMwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwMMMMwwwMMMMwwwwwwwwwwwwwwwMMMwwwwwMMwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwMMMMwwwwwwMMMMwwwwwwwwwwwwwwMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwMMMwwwwwwwwMMMwwwwwwwwwwwwwwMMMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwMMMwwwwwwwwwwwwwwMMwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwMwwwwwwwwwwwwwwwMwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwww                     w        ww www ww", "  ww"],
+        "entities": [{
+            "type": "boy",
+            "x": 7,
+            "y": 23,
+            "data": {
+                "name": "unreachable_kid",
+                "message": "What's the point?\nYou can't get here anyway..."
+            }
+        }, {
+            "type": "chest_open",
+            "x": 6,
+            "y": 23,
+            "invisible": false
+        }],
+        "textareas": [{
+            "x": 10,
+            "y": 31,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "Whoever's frozen frantic\nmust yank a path to freedom\nto find quote or backtick\nand escape the Lorem Ipsum"
+        }, {
+            "x": 9,
+            "y": 53,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "2.Search line 33, column 39"
+        }, {
+            "x": 4,
+            "y": 40,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "3.Column 47, on the line\n  between the two 'brute's."
+        }, {
+            "x": 13,
+            "y": 22,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "4.Right before the 4th\n  pro from the end."
+        }, {
+            "x": 13,
+            "y": 15,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "1.Beginning of line 41"
+        }]
+    }, {
+        "buffer": "lorem",
+        "levelNumber": 14,
+        "addX": 100,
+        "addY": 100,
+        "topX": 4,
+        "topY": 13,
+        "cursorX": 23,
+        "cursorY": 19,
+        "bg": ["wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwww++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwwwwwwwwwwwwwwww", "wwwww+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwww", "wwwww++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwwwwwwwwwwww", "wwwww++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwwwwwwwwww", "wwwww++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwwwwwwwwwwwwww", "wwwww+++++++++++++++++++++++wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwww+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwww+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwwwwwww", "wwwww+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwwwwwww", "wwwww++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwwwwww", "wwwww++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwww+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwww++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwwwwwwww", "wwwww++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwwwwww", "wwwww++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwwwwwwwwwwww", "wwwww++++++++*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwwwwwwww", "wwwww+++++++++++++++++++wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwww+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "wwwww++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwwwwwwwwwwww", "wwwww+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++           ", "     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwww            ", "     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ww              ", "     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++             ", "     +wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww ww  w  w                            ", "     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++           ", "     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++             ", "     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++             ", "     +++++++++++++++++++++++++wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", "     +wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww             ", "     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ww          ", "     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++www", "     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                  ", "     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwww               ", "     ++++++++++++++++++++++wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww              ", "     +wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww            ", "     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwwwwww                    ", "     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++                 ", "     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwwwwww                 ", "     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwwww               ", "     +++++++++++++++++++++++++++++++++wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww             ", "     +wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww          ", "     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++", "     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwwwww", "     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwww", "     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwwwwww", "     ++++++++++++++++++++++++++++++++++++++++++++++wwwwwwwwwwwwwwwwwwwwwwwwww", "     +wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww     w", "     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++", "     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++wwwww", "     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++w", "     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++", "     +++                     w        ww www ww"],
+        "entities": [{
+            "type": "keyboard_key",
+            "x": 5,
+            "y": 4,
+            "character": "L",
+            "invisible": false
+        }, {
+            "type": "keyboard_key",
+            "x": 5,
+            "y": 55,
+            "character": "1"
+        }, {
+            "type": "keyboard_key",
+            "x": 5,
+            "y": 30,
+            "character": "M"
+        }, {
+            "type": "keyboard_key",
+            "x": 5,
+            "y": 50,
+            "character": "\\nu"
+        }, {
+            "type": "short_tree",
+            "x": 43,
+            "y": 36,
+            "invisible": false
+        }, {
+            "type": "keyboard_key",
+            "x": 43,
+            "y": 36,
+            "character": "/?",
+            "invisible": true
+        }, {
+            "type": "short_tree",
+            "x": 24,
+            "y": 7,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 30,
+            "y": 5,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 32,
+            "y": 11,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 23,
+            "y": 12,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 13,
+            "y": 16,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 9,
+            "y": 14,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 22,
+            "y": 17,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 10,
+            "y": 24,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 11,
+            "y": 22,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 14,
+            "y": 23,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 18,
+            "y": 25,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 11,
+            "y": 28,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 34,
+            "y": 28,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 34,
+            "y": 24,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 35,
+            "y": 23,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 30,
+            "y": 18,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 26,
+            "y": 24,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 28,
+            "y": 23,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 40,
+            "y": 25,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 50,
+            "y": 23,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 55,
+            "y": 25,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 43,
+            "y": 26,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 44,
+            "y": 19,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 45,
+            "y": 16,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 51,
+            "y": 18,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 58,
+            "y": 16,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 59,
+            "y": 18,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 67,
+            "y": 17,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 63,
+            "y": 24,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 56,
+            "y": 17,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 63,
+            "y": 34,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 52,
+            "y": 39,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 50,
+            "y": 42,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 65,
+            "y": 40,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 61,
+            "y": 42,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 55,
+            "y": 34,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 43,
+            "y": 45,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 59,
+            "y": 48,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 66,
+            "y": 52,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 55,
+            "y": 51,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 51,
+            "y": 53,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 47,
+            "y": 51,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 39,
+            "y": 53,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 32,
+            "y": 52,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 19,
+            "y": 54,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 14,
+            "y": 53,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 11,
+            "y": 52,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 13,
+            "y": 42,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 10,
+            "y": 41,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 7,
+            "y": 45,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 25,
+            "y": 39,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 26,
+            "y": 40,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 21,
+            "y": 42,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 18,
+            "y": 40,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 8,
+            "y": 39,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 5,
+            "y": 38,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 5,
+            "y": 27,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 20,
+            "y": 31,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 23,
+            "y": 29,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 27,
+            "y": 29,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 18,
+            "y": 22,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 5,
+            "y": 15,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 5,
+            "y": 10,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 5,
+            "y": 44,
+            "invisible": false
+        }, {
+            "type": "keyboard_key",
+            "x": 5,
+            "y": 44,
+            "character": "|",
+            "invisible": true
+        }, {
+            "type": "short_tree",
+            "x": 51,
+            "y": 14,
+            "invisible": false
+        }, {
+            "type": "keyboard_key",
+            "x": 51,
+            "y": 14,
+            "character": "`",
+            "invisible": true
+        }, {
+            "type": "short_tree",
+            "x": 43,
+            "y": 33,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 10,
+            "y": 4,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 14,
+            "y": 6,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 21,
+            "y": 6,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 26,
+            "y": 4,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 29,
+            "y": 7,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 38,
+            "y": 6,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 45,
+            "y": 4,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 47,
+            "y": 7,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 49,
+            "y": 6,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 53,
+            "y": 4,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 52,
+            "y": 7,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 58,
+            "y": 6,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 60,
+            "y": 4,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 67,
+            "y": 6,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 77,
+            "y": 5,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 74,
+            "y": 12,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 69,
+            "y": 11,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 66,
+            "y": 13,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 55,
+            "y": 14,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 54,
+            "y": 12,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 61,
+            "y": 11,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 62,
+            "y": 19,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 68,
+            "y": 19,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 69,
+            "y": 23,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 66,
+            "y": 25,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 57,
+            "y": 23,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 53,
+            "y": 23,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 68,
+            "y": 26,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 68,
+            "y": 29,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 63,
+            "y": 30,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 59,
+            "y": 28,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 54,
+            "y": 30,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 53,
+            "y": 29,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 71,
+            "y": 26,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 67,
+            "y": 34,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 59,
+            "y": 35,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 57,
+            "y": 41,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 51,
+            "y": 41,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 60,
+            "y": 54,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 56,
+            "y": 53,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 68,
+            "y": 54,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 78,
+            "y": 54,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 58,
+            "y": 51,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 52,
+            "y": 54,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 28,
+            "y": 54,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 33,
+            "y": 54,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 45,
+            "y": 52,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 33,
+            "y": 43,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 34,
+            "y": 41,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 32,
+            "y": 40,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 40,
+            "y": 39,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 42,
+            "y": 40,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 36,
+            "y": 39,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 27,
+            "y": 42,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 22,
+            "y": 37,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 24,
+            "y": 36,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 28,
+            "y": 34,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 32,
+            "y": 33,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 38,
+            "y": 34,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 33,
+            "y": 35,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 36,
+            "y": 36,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 46,
+            "y": 34,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 21,
+            "y": 35,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 20,
+            "y": 33,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 12,
+            "y": 17,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 7,
+            "y": 28,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 7,
+            "y": 22,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 12,
+            "y": 36,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 8,
+            "y": 34,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 18,
+            "y": 35,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 16,
+            "y": 36,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 16,
+            "y": 39,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 12,
+            "y": 30,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 8,
+            "y": 52,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 21,
+            "y": 52,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 21,
+            "y": 51,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 9,
+            "y": 36,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 16,
+            "y": 20,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 22,
+            "y": 25,
+            "invisible": false
+        }, {
+            "type": "selector",
+            "x": 72,
+            "y": 40,
+            "invisible": true
+        }, {
+            "type": "cursor_npc",
+            "x": 14,
+            "y": 46,
+            "data": {
+                "fillStyle": "rgba(255,255,255,1.0)",
+                "dialog": {
+                    "0": {
+                        "newMsg": "You lucky son-of-a-tab!\nYou managed to get to\na motion...",
+                        "msg": "Yo Boss!",
+                        "options": [{
+                            "response": "Erm... who are you?",
+                            "disposable": true,
+                            "goto": "1"
+                        }, {
+                            "response": "Are all your motions gone too?",
+                            "disposable": true,
+                            "goto": "2"
+                        }, {
+                            "fillStyle": "rgba(254,254,254,1.0)",
+                            "response": "Can you please tell me\nabout marks again?",
+                            "goto": "8"
+                        }, {
+                            "response": "Who do you think I am?",
+                            "disposable": true,
+                            "goto": "3"
+                        }, {
+                            "response": "Ok, I'm off to save Textland!",
+                            "goto": "-1",
+                            "byeMsg": "Vimspeed..."
+                        }]
+                    },
+                    "1": {
+                        "msg": "I'm Mr. White...\nDon't you remember?",
+                        "options": [{
+                            "response": "Mr. White...?\nWell, you do seem\nespecially bright.",
+                            "disposable": true,
+                            "goto": "7"
+                        }, {
+                            "response": "Don't trust Mr. Orange!",
+                            "disposable": true,
+                            "goto": "4"
+                        }]
+                    },
+                    "2": {
+                        "msg": "No, I just enjoy standing\nhere in the sun! Come on!",
+                        "options": [{
+                            "response": "What happened?\nMy memory is a\nlittle vague...",
+                            "disposable": true,
+                            "goto": "5"
+                        }]
+                    },
+                    "3": {
+                        "msg": "You're the king of the pond\nYertel the Turtle!\nAre you kidding me?!",
+                        "goto": "0"
+                    },
+                    "4": {
+                        "msg": "Now you're telling me?\nIt's a little late for that...",
+                        "goto": "1"
+                    },
+                    "5": {
+                        "msg": "We were all going after \nthe Big Bug. You said\nboth local and global\nmarks were in place,\nbut he was expecting us...",
+                        "options": [{
+                            "response": "Marks?\nWhat marks?",
+                            "disposable": true,
+                            "goto": "8"
+                        }, {
+                            "response": "I remember a green light!\nWhat's up with that?",
+                            "disposable": true,
+                            "goto": "6"
+                        }]
+                    },
+                    "6": {
+                        "msg": "Waaaait....\nIs that you Harry!?",
+                        "goto": "5"
+                    },
+                    "7": {
+                        "msg": "Yeah, all that grayscale\naround here really\nbrings out my complexion.",
+                        "disposable": true,
+                        "goto": "1"
+                    },
+                    "8": {
+                        "fillStyle": "rgba(254,254,254,1.0)",
+                        "newMsg": "Oh, for scrollbar's sake!\nDon't you remember the\nmarks??? Holy blink!\n\nThere are two kinds of marks:\nlocal marks and global marks.",
+                        "msg": "There are two kinds of marks:\nlocal marks and global marks.",
+                        "options": [{
+                            "response": "What is a mark?",
+                            "goto": "9"
+                        }, {
+                            "response": "What are local marks?",
+                            "goto": "10"
+                        }, {
+                            "response": "What are global marks?",
+                            "goto": "11"
+                        }, {
+                            "response": "How can I use marks?",
+                            "goto": "13"
+                        }, {
+                            "response": "How can marks help\nme destroy Big Bug?",
+                            "goto": "12"
+                        }, {
+                            "response": "Got it. Let's talk about\nsomething else now.",
+                            "goto": "0"
+                        }, {
+                            "response": "Ok, I'm off to save Textland!",
+                            "goto": "-1",
+                            "byeMsg": "Vimspeed..."
+                        }]
+                    },
+                    "9": {
+                        "msg": "A mark is an exact location in the \ntext you can teleport yourself to,\nor use as a command parameter.\n\nIt's invisible in VIM, but here in\nTextland it's marked with a flag.\nThe name of the mark is the\nletter written on the flag.",
+                        "goto": "8"
+                    },
+                    "10": {
+                        "msg": "Local marks are marks that are\nprivate to the text you're currently on.\nLower case 'a' - 'z', for example, are\nlocal marks. Two different texts can\nhave the mark 'a' on both of them at\nthe same time while each mark\ndenotes a different location.",
+                        "goto": "8"
+                    },
+                    "11": {
+                        "msg": "I just know they exist, but\nyou should really talk with\nMr. Blue about that. He's\nan expert.",
+                        "goto": "8"
+                    },
+                    "12": {
+                        "msg": "Before you went all forgetful on me,\nyou said that in order to defeat Big\nBug specific marks should be placed\nin exact locations on some text.\n\nBut you didn't tell, and I didn't ask.\nI think Mr. Red knows, though.",
+                        "goto": "8"
+                    },
+                    "13": {
+                        "msg": "You should find the backtick\nbutton ` to jump to a mark.\nI know you had it before...\n\nYou should type ` followed\nby the mark name to be\nteleported there, or you can\nuse it as a motion after an \noperator such as d, y, c etc.",
+                        "goto": "8"
+                    }
+                }
+            }
+        }, {
+            "type": "short_tree",
+            "x": 16,
+            "y": 45,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 19,
+            "y": 46,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 29,
+            "y": 46,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 9,
+            "y": 48,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 11,
+            "y": 49,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 17,
+            "y": 49,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 21,
+            "y": 48,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 34,
+            "y": 47,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 38,
+            "y": 46,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 50,
+            "y": 47,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 47,
+            "y": 48,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 43,
+            "y": 49,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 57,
+            "y": 47,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 66,
+            "y": 47,
+            "invisible": false
+        }, {
+            "type": "cursor_npc",
+            "x": 59,
+            "y": 7,
+            "data": {
+                "fillStyle": "rgba(0,0,255,0.5)",
+                "dialog": {
+                    "0": {
+                        "msg": "Waz'up Chief?",
+                        "options": [{
+                            "fillStyle": "rgba(0,0,255,0.5)",
+                            "response": "Who's asking?",
+                            "goto": "1"
+                        }, {
+                            "fillStyle": "rgba(0,0,254,0.5)",
+                            "response": "How did we\nend up here?",
+                            "goto": "6"
+                        }, {
+                            "fillStyle": "rgba(0,0,254,0.5)",
+                            "response": "What's up with\nthat 'L' flag?",
+                            "goto": "12"
+                        }, {
+                            "fillStyle": "rgba(0,0,253,0.5)",
+                            "response": "How did we\nend up here?",
+                            "goto": "6"
+                        }, {
+                            "fillStyle": "rgba(0,0,253,0.5)",
+                            "response": "Please tell me about\nglobal marks again.",
+                            "goto": "12"
+                        }, {
+                            "response": "BRB, CU L8R",
+                            "goto": "-1",
+                            "byeMsg": "You're sooo 1337!\nI want to be just like you!"
+                        }]
+                    },
+                    "1": {
+                        "msg": "I'll give you a hint...\n\nI'm ____\nDa ba dee\nDa ba die",
+                        "options": [{
+                            "response": "This tells me...\nabsolutely nothing.",
+                            "goto": "2"
+                        }, {
+                            "response": "Ahhh, so you're - ",
+                            "goto": "4"
+                        }]
+                    },
+                    "2": {
+                        "msg": "(sigh) I'm Mr. Blue.\nForgot me already...?",
+                        "options": [{
+                            "response": "No way!\nI remember you\nnow. I only forgot\neverything else!",
+                            "goto": "6"
+                        }, {
+                            "response": "Who? I don't know\nno Mr. Blue.",
+                            "goto": "-1",
+                            "byeMsg": "Get lost."
+                        }]
+                    },
+                    "3": {
+                        "fillStyle": "rgba(0,0,254,0.5)",
+                        "msg": "That's so nice of you.\nYou're THE CURSOR!\nHigh Five!",
+                        "goto": "0"
+                    },
+                    "4": {
+                        "msg": "Yes?",
+                        "options": [{
+                            "response": "You're -",
+                            "goto": "5"
+                        }]
+                    },
+                    "5": {
+                        "msg": "Yes??",
+                        "options": [{
+                            "response": "MR. BLUE!",
+                            "goto": "3"
+                        }, {
+                            "response": "Nobody I know...\nSorry 'bout that.",
+                            "goto": "2"
+                        }]
+                    },
+                    "6": {
+                        "fillStyle": "rgba(0,0,254,0.5)",
+                        "msg": "Don't you remember?\nWe tried to kill Big Bug,\nbut he saw us coming!\nThat blinking Mr. Pink!",
+                        "options": [{
+                            "response": "What did Mr. Pink do?",
+                            "goto": "8"
+                        }, {
+                            "response": "OK, what's with the names?!",
+                            "disposable": true,
+                            "goto": "7"
+                        }, {
+                            "response": "But what was the plan?\nHow were we supposed\nto take that Big Bug down?",
+                            "goto": "11"
+                        }]
+                    },
+                    "7": {
+                        "msg": "Did someone ever tell you\nyou should really focus\non the IMPORTANT parts?",
+                        "options": [{
+                            "response": "Nope.",
+                            "disposable": true,
+                            "goto": "9"
+                        }, {
+                            "response": "Yeah, why?",
+                            "disposable": true,
+                            "goto": "10"
+                        }]
+                    },
+                    "8": {
+                        "msg": "He blinked so fast and so bright\nhe almost turned red... Never\ncould control himself, you see.\nNot even if his life depended\non it.",
+                        "goto": "0"
+                    },
+                    "9": {
+                        "msg": "Figures...",
+                        "goto": "6"
+                    },
+                    "10": {
+                        "msg": "Ooook.... never mind.",
+                        "goto": "6"
+                    },
+                    "11": {
+                        "msg": "Well, you had to put some\nmarks on a specific text to\nblock Big Bug's power so\nwe could destroy him.\nI don't know which marks\nand where, but I'm sure\nMr. Red knew, Chief!",
+                        "goto": "0"
+                    },
+                    "12": {
+                        "fillStyle": "rgba(0,0,253,0.5)",
+                        "newMsg": "That flag is the global\nmark 'L'. But you knew\nthat already... Is this\nsome kind of a test?",
+                        "msg": "No problemo Cheif!\nWhat would you like\nto know?",
+                        "options": [{
+                            "response": "What are global marks?",
+                            "goto": "13"
+                        }, {
+                            "response": "Are there other\nkinds of marks?",
+                            "goto": "14"
+                        }, {
+                            "response": "How do I use\nglobal marks?",
+                            "goto": "15"
+                        }, {
+                            "response": "Let's talk about something\nelse now, ok?",
+                            "goto": "0"
+                        }, {
+                            "response": "BRB, CU L8R",
+                            "goto": "-1",
+                            "byeMsg": "You're sooo 1337!\nI want to be just like you!"
+                        }]
+                    },
+                    "13": {
+                        "msg": "A global mark denotes a location in\na text along with the specific buffer\n(file). The global mark is unique and\ncan't be shared between two texts;\nA new global mark will replace the\nold one with the same name even if\nthe older one was in a different text\nor buffer.\nCapitals A-Z are global marks.",
+                        "goto": "12"
+                    },
+                    "14": {
+                        "msg": "There are also local marks, which\nare private to the current text. But\nyou'd better consult with Mr. White\non that Chief!",
+                        "goto": "12"
+                    },
+                    "15": {
+                        "msg": "You should use backtick ( ` )\nfollowed by a global mark name\nto teleport yourself to that mark.\nSince a global mark might reside\nin a different buffer, the current\nbuffer might change to reflect the\nnew location.\n\nIf a global mark is on the same\ntext as you, you may also use it\nas a motion for operators such\nas yank, delete, etc.",
+                        "goto": "12"
+                    }
+                }
+            }
+        }, {
+            "type": "short_tree",
+            "x": 64,
+            "y": 5,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 7,
+            "y": 8,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 20,
+            "y": 7,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 14,
+            "y": 9,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 12,
+            "y": 8,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 32,
+            "y": 8,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 36,
+            "y": 8,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 43,
+            "y": 8,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 58,
+            "y": 8,
+            "invisible": false
+        }, {
+            "type": "short_tree",
+            "x": 65,
+            "y": 8,
+            "invisible": false
+        }, {
+            "type": "cursor_npc",
+            "x": 68,
+            "y": 53,
+            "data": {
+                "fillStyle": "#f9c",
+                "blinkRate": "80",
+                "dialog": {
+                    "0": {
+                        "newMsg": "I'm sorry!\nI'm soooo sorrry!\nPlease forgive me!\nPretty please!\nPretty pretty please...",
+                        "msg": "I'm sorr... ahem.\nBesides moving,\nwhat can I do for you?",
+                        "options": [{
+                            "fillStyle": "#f9c",
+                            "response": "I still haven't made up\nmy mind whether to\nforgive you or not...",
+                            "goto": "1"
+                        }, {
+                            "fillStyle": "#f00",
+                            "response": "Ok, I decided to forgive you.",
+                            "goto": "7"
+                        }, {
+                            "fillStyle": "#f9c",
+                            "response": "Have you seen Mr. Red?\nI need to speak with him.",
+                            "goto": "6"
+                        }, {
+                            "fillStyle": "#f00",
+                            "response": "Have you seen Mr. Pink?\nI need to speak with him.",
+                            "goto": "6"
+                        }, {
+                            "fillStyle": "#f9c",
+                            "newResponse": "What can you tell\nme about marks?",
+                            "response": "Tell me again about\nlisting and deleting\nmarks please.",
+                            "goto": "8"
+                        }, {
+                            "fillStyle": "#f00",
+                            "newResponse": "What can you tell\nme about Big Bug?",
+                            "response": "Please tell me about\nBig Bug and marks again.",
+                            "goto": "9"
+                        }, {
+                            "fillStyle": "#f9c",
+                            "response": "Bye now Pinky. Try to relax.",
+                            "goto": "-1",
+                            "byeMsg": "I'm doing my best\nbut it's sooo stressful..."
+                        }, {
+                            "fillStyle": "#f00",
+                            "response": "I'm leaving.\nCool down Red!",
+                            "goto": "-1",
+                            "byeMsg": "Well, you're not helping!"
+                        }]
+                    },
+                    "1": {
+                        "msg": "Pretty please with\nsugar and candy?",
+                        "options": [{
+                            "response": "Ok, ok, ok...\njust shut up already.",
+                            "goto": "3"
+                        }, {
+                            "response": "No.",
+                            "goto": "2"
+                        }]
+                    },
+                    "2": {
+                        "msg": "Pretty please with\nsugar and candy\nand marshmallows?",
+                        "options": [{
+                            "response": "Ok, ok, ok...\njust shut up already.",
+                            "goto": "3"
+                        }, {
+                            "response": "No.",
+                            "goto": "4"
+                        }]
+                    },
+                    "3": {
+                        "msg": "You are too kind.\nThank you...\nTHANK YOU!",
+                        "fillStyle": "#f9c",
+                        "blinkRate": "400",
+                        "goto": "0"
+                    },
+                    "4": {
+                        "msg": "Pretty please with\nsugar and candy\nand marshmallows\nand scrollbars?",
+                        "options": [{
+                            "response": "Ok, ok, ok...\njust shut up already.",
+                            "goto": "3"
+                        }, {
+                            "response": "No.",
+                            "goto": "5"
+                        }]
+                    },
+                    "5": {
+                        "msg": "In the name of everything\nthat's bold and underlined!\nI'm so stressed right now\nI'm about to change color!",
+                        "fillStyle": "#f00",
+                        "blinkRate": "80",
+                        "goto": "0"
+                    },
+                    "6": {
+                        "msg": "Never heard of him.",
+                        "goto": "0"
+                    },
+                    "7": {
+                        "msg": "I feel... relaxed.\nThank you.",
+                        "fillStyle": "#f9c",
+                        "blinkRate": "400",
+                        "goto": "0"
+                    },
+                    "8": {
+                        "msg": "You can see a list of all the\nmarks in the current text, as\nwell as the global ones by using\nthe ':marks' command. You can\nnarrow the list by providing the\nflags you're interested in. For\nexample ':marks Spencer' will\nlist the marks S, p, e, n, c & r.\n\nOh, and you can remove marks\nwith ':delm' command. Just list\nthe marks or use '!' for all local\nones.",
+                        "goto": "0"
+                    },
+                    "9": {
+                        "msg": "Big Bug is the highest ranking bug\nhere in Textland, commanding the\nbugs invasion. It was told that when\nmarks are positioned on a special\nunderground text, he'll be destroyed.\nI never saw this text, but you told me\nthere is another text in the sky just\nlike it which reveals the marks to use.",
+                        "goto": "0"
+                    }
+                }
+            }
+        }, {
+            "type": "keyboard_key",
+            "x": 5,
+            "y": 16,
+            "character": "H"
+        }],
+        "textareas": [{
+            "x": 5,
+            "y": 4,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "^mLLorem ipsum dolor sit amet, magna postea ne duo, est at antiopam\nconstituto reprimique, at vis bonorum gloriatur expetendis. At pri error zril\neleifend, everti probatus ex per. Ad admodum molestie vis, vix brute\nvituperatoribus ea. Sint dicunt dolorum ad duo. Omnes Blue instructior\nin his. Per probo ocurreret no, vix ex ridens omnium, no nam dicam\nurbanitas contentiones.\n \nIriure theophrastus mel ne. Sanctus periculis adipiscing id est. At erant\nsaepe aperiam vis, vix tacimates reprehendunt ad, has latine fabellas ad.\nVel ut diam gloriatur, vim aliquam eleifend ei, no sed nemore ullamcorper.\nErat mucius necessitatibus duo an, lorem omnes eum at.\n \nNe viris nusquam philosophia vim. Putent voluptua cum ex. Dico explicari\nex qui. Ut nostro eloquentiam mea, an mei periculis voluptatum percipitur,\nea ridens pertinacia sea. Duis quidam nominati qui no, et duo eirmod\ntibique. Ius mazim partiendo ne, mea id corpora appareat, saepe suscipit\nphilosophia pro in.\n \nUt mea doctus utamur mnesarchum. No amet deseruisse quo, brute illud\nsalutandi ea pri, porro ridens essent ne vel. Ex usu harum vitae tibique,\nreque aeterno labores in quo, an quis esse eam. Vix dicunt pericula\ngloriatur eu, sea propriae phaedrum et. Eum graeci utamur eu, pri eu\nquod decore. Nullam scripserit in qui, vidit detracto expetenda ne nec.\n \nEa vis meis putant mediocrem, cu sed ludus maiestatis, viris clita ea vis.\nAeterno pertinacia sit ex. Usu et affert oratio, eu quem altera platonem\nmel, ea integre vivendo signiferumque eos. Ne ius insolens ocurreret. Ad\nvix eius iudico inimicus.\n \nEssent senserit cu quo, nam ut nostrud ullamcorper. Affert dignissim cum\nno, vivendo lobortis no est. Stet debitis indoctum est no, eum nominavi\nassentior ne. Eu sale timeam conceptam eum, ex volumus liberavisse\nsea. Et est epicuri scriptorem, per ei agam tamquam suavitate, ne\nadmodum periculis nec.\n \nIus eu quod appareat molestiae, mea an copiosae imperdiet\ncomprehensam. Ad cibo errem facilisis pro, nisl sensibus vis at. Ex pro\nnovum mediocrem gubergren, ei mei sumo ubique. Minim perpetua\noportere eu mei, magna iusto officiis at mei, no omittam legendos\ndignissim mel. Eius nihil ad has.\n \nEi duo stet oporteat consectetuer. Duo an admodum nominavi, an\nsensibus White mediocrem vel. His nihil minimum accumsan ne,\nvix etiam option voluptatibus ad. Et pro vero semper facilis, pro\nalia integre et. Tamquam sapientem cum ad. Ad tale officiis nec,\nper ei solum inciderint, errem ornatus no cum.\n \nFacilis detraxit ad sea. Appetere inimicus usu cu, ne vel feugiat sanctus.\nMel no principes patrioque. Ut vis errem prompta eloquentiam. Accusam\ngubergren eum ea, nostrum perpetua senserit no est. Impetus Red Pink pericula\nphilosophia et eum, ius hinc mutat offendit et, tritani laoreet euripidis qui\nte."
+        }]
+    }, {
+        "buffer": "sky",
+        "levelNumber": 14,
+        "addX": 400,
+        "addY": 400,
+        "topX": 105,
+        "topY": 52,
+        "cursorX": 121,
+        "cursorY": 58,
+        "bg": ["                                                                                                                                                                                                        M", "                                                                                                                                                                                                        M", "                                                                                                                                                                                                            ", "                                                                                                                                 M                                                                     ccccc ", "                          M                                                                                                    M                                                                      cc   cc", "                       MMMM                                                                                                    M M                                      M                             cc   cc   ", "                       MMMM                                                                                                    M M                                      M                             cc   cc   ", "                       MMMM                                                                                                    M M                                      M      M                          ccc   ", "                       MMMMM MM                           c                                                         ccc cc      MM                                      M      M                         cc     ", "       M              MMMMM  MM  c      ccc         cc   cc                                                          cccc   MMMMMMMMM                       MMM   MM                                     cc     ", "      MM               MMM   MM  c    c cccc cc c  cc  c ccc  M                                          c             cc   MMMMMMMMMMMM                  M MMMM  MMMM    M    M                                ", "    MMMMM                 MM    ccccccccccccccccccccccccccccccMM                                     M  ccc           cc  MMMMMMMMMMMMMMM   cc c        MMMMMMMMMMMMMMMM  MM   M                         cc     ", "    MMMMM              MMMM     c++++++++++++++++++++++++++++ccM M                                   Mccccc M MMMMMMM     MMMMMMMMMMMMMMMM   cc         MMMcccMMcMMMMM         M                         cc", "    MMMMM             M MMM     c++++++++++++++++++++++++++ccc                                M     cMccccccMMMMMMMMMMM    MM MMMMMMMMM M   cc c        MMccccccccMMMM         M   M", "    MMMMM               MM     cc++++++++++++++++++++ccccccccc                                       cccccccMMMMMMMMMMMMMMM  MMMMMMMM      cc            ccccccccccMMMMM       M  M", "    MMMMM MM             M     cc+++++++++++++++++++++++++++cccMM                                     cccccccMMMMMMMMMMMMM    MMMMMMM                     cccccccc  MMMM          M", "    MM   MM         M   MMM    cc+++++++++++++++++++++++++++cccc                                    ccccccc M    M MMMMM    MMMMMMMM                       cMccMc   MMMMMM        M", "    M     M   M     MM  M M    cc+++++++++++++++++++++++++++++c                                     ccccc  MM       M        MMMM                           MMc      MMMMM        M", "    M         MM  MMMMM   M     c++++++++++++++ccccccccccccccc                                     cccc                     MMMMM                            M          M         M", "    MM                    M     ccccccccccccccccccccccccccc                                                                 MMMM                             M         M", "    MM                MM  M  MM Mcc c   ccc cc  cccc cccc                                                                   M  M                                       M", "                      M   MMMM  MMM   M  c       cc                                                                                                                    M", "                     MM   M  M      M M           c                                                                                                                    M", "                                    M M           M                                                                                                                    M", "                                    M                                                                                                                                 M", "                                                  ", "                                               ", "                                                                                   ", "                                                                                   ", "                                                                                   ", "                                                                                   ", "                             MMMMMMMMMMMMMMMMMMMMMMMMMM                            ", "                             MMMMMMMMM  MMMMMMMMMMMMMMM                            ", "                             MMMMM  MMM  MMMMMMMMMMMMMM                            ", "                                    M     MMMMMMMMMMMM                             ", "                             M               MMM  MMMMMM   ", "                                                    M                              ", "                                                     MMMM                         ", "                                                                                   ", "                                                          ", "                                                                                   ", "                                                       ", "                                                                                   ", "                                                                                   ", "                                                                                                                     ", "                                                                                                                     ", "                                                                                                                     ", "                                                                                                                     ", "                                                                                                                     ", "                                                              c                                                      ", "           MM   M  MM              c   c    c  c   cc   c     cc                                                    ", "            MMMMMMM                cc  c  cM    c   cc cc      c                                                     ", "          MMMMMMMM                  *+*+*+*+*+*+*+*+*+*+*+*+*+*MM                                                    ", "          M  MM                   cc+*+*+*+*+*+*+*+*+*+*+*+*+*+  c  c                                                              ", "          M  M                     c*+*+*+*+*+*+*+*+*+*+*+*+*+*+* cc                                                               ", "           M M                     c+*+*+*+*+*+*+*+*+*+*+*+*+++++++c                                                                  ", "            M                      MMccMM  ccM M cc  cc    M_______M                                                  c c c           ", "                                  MMMcMMMcccMMMMccccccM    M_WWWWWM                                          c  c  ccc cccc      c   ", "                                  MMMMMMMMMMMMMMMMMMMMMMMc  _WWWWWMM                                         cccc  cc c ccc   c  cc  c  c", "                                  MMMMMMMMMMMMMMMMMMMMM    c_MMW MM                                         ccccccccccccccc cccc c  ccc  cc", "                                 MMMMMMMMMMMMMMMM  M    c  c___W_MMc                                      c c+c+++++++++++++++cccccccccccc", "                                MMMMM    M M               Mc###MMcc                                      ccc++++++++++++++++++++++++++cc", "                                MMMMMMMM  M                M cc MM                                         cc+++++++++++++++++++++++++++ccc", "                                MMMMMMMMMM  M             MM                                             c cc+++++++++++++++++++++++++cccc", "                            MMMMMMMMMMMMMMMM              MM                                             c cc+++++++++++++++++++++++++ccccc", "                            M  MMMM MMMMMMMM              MMM c                                             c+++++++++++++++++++++++++cccccc", "                             M  MMMMM     M            MM                                                 ccc+++++++++++++++++++++++++++cc", "                             M  MM                  MMM                                                    cc+ccccccccccccccccccccccccccc M", "                              M MM                  M MM                                                    c+++++++++++++++++++++++cccccc", "                               MMM                                                                        c c+++++++++++++++++++++cccccccc", "                                                                                                           cc+++++++++++++++++++++ccccccccc", "                                                                                                           cc+++++++++++++++++++++cccccc  c", "                                                                                                           Mccccccccccccccccccccccccccccc", "                                                                                                           cccc Mcc  cc   cMcc   cMc  c c", "                                                                                                             c Mcc               cc  c", "                                                                                                                                  M", "                                                                                                                                  M", "                                                                                                                 ", "                                                                                                                ", "                                                                                                                                ", "                                                                                                                                ", "", "                                                                                                                               ", "                                                                                                                               ", "                                                                                                                          ", "                                                                                                                              ", "                                                                                                                             ", "                                                                                                                              ", "                                                                                                                              ", "                                                                                                             cc               ", "                                                                                                              ccc    cc       ", "                                                                                                              c+++++++cc  ", "                                                                                                              c++++ccccc  ", "                                                                                                             cc+++MMMc    ", "                                                                                                             cc++++cM     ", "                                                                                                              c++++ccMM      ", "                                                                                                              c++++++MMM ", "                                                                                                              c++cMMMMMMMc   ", "                                                                                                               +++++++++++c", "                                                                                                              c+++++++cc  cc", "                                                                                                              c++++MMMM     ", "                                                                                                               +++++ccM  ", "                                                                                                              c++++++++c ", "                                                                                                             cc+++c      ", "                                                                                                              c+++M      ", "                                                                                                              c+++c      ", "                                                                                                               +++ccc    ", "                                                                                                              c++ccc     ", "                                                                                                             cc++++cc    ", "                                                                                                              cccccc      ", "                                                                                                                          ", "                                                                                                                         ", "                                                                                                                         ", "                                                                                                                         ", "                                                                                                                         ", "                                                                                                                         ", "", "", "", "", "", "", "", "", "", "", "                                                                                       M", "                                                                                       M                                                                             M", "                                                                                        M                                                                            M", "                                                                                        MMM                                                                    M    MMM", "                                                                                     M MM  MMMM   M                                          cMMMMMcMM M M c  MMcMMMMMMM", "                                                                   ++++++++++++++++MMMMMMMMMMMMMM M                                         c M MMMMcMMMc M c MMMMMMMMMM", "                                                                   ++++++++++++++++MMM   M        M                                          +M++++++++++M*M++++++++MMMMM", "                                                                   +++++++++++++++++++++++        M                                          MM++++++++++MMM++++++++++M", "                                                                   ++++++++++++++++++MMMM         M                                         c+++++++++++++++++++++MMMMMM", "                                                                   ++++++++++++++++++MMMMMMM      M                                         cMMM++++++++++++++++++++MMc", "                                                                   +++++++++++++++MMMMMMMMMMMMMMM MM                                       c M+M++++++++++++++++++++++MMM", "                                                                   ++++++++++++++MMMMMMMM  M      MMM                                        MMcMMMMM  c  c   cM  MMcMMM", "                                                                   +++++++++++++++++++++++++++MMMMMMMMMMMM                                   M Mc  MM cc     c MMMMMcc M", "                                                                   +MMMMMMMMMMMMMMMMM       M    MMMM   MM                                         M          MMMMMMMMcM", "                                                                   +++++++++++++++++++++++++MMMMMMMM                                             M", "                                                                   +++++++++++++++++++++++++MMM   M                                              M                M", "                                                                   +++++++++++++++++++++++++MMMMM MM                                                             MM", "                                                                   +MMMMMMMMMMMMMMMMMMMMMMMMMMMMM M", "                                                                   +++++++++++++++++++++++++MMMM  M", "                                                                   ++++++++++++++++    MMMMMMMMM  MMM MM", "                                                                   ++++++++++++++++++++MMMMMMMMMMMMMMMMM", "                                                                   MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM", "                                                                      MM M   M    MM MM M   MMM   M M", "                                                                        M       M      MM    M   M", "                                                                              M               M  M", "                                                                                              M  M                                  M", "                                                                                             M                                      M", "                                                                                                                                    M", "                                                                                                                                    M", "                                                                                                                  +++++++***+++++++MMM", "                                                                                                                  +++++++*+*+++++++MMM", "                                                                                                                  +++++*+***+*+++++MMM", "                                                                                                                  +++++++++++++++++MMM", "                                                                                                                  ++*++++*+*++++*++MM", "                                                                                                                  +++++++++++++++++MM", "                                                                                                                  ***+*+++++++*+***MM", "                                                                                                                  *+*+++++++++++*+*MM", "                                                                                                                  ***+*+++++++*+***MM", "                                                                                                                  +++++++++++++++++MM", "                                                                                                                  ++*++++*+*++++*++MMM", "                                                                                                                  +++++++++++++++++MM", "                                                                                                                  +++++*+***+*+++++MM", "                                                                                                                  +++++++*+*+++++++MM", "                                                                                                                  +++++++***+++++++MM", "                                                                                                                      MMMMMMMM     MM", "                                                                                                                        MMMMM", "                                                                                                                       MM MM M", "                                                                                                                     MM M", "                                                                                                                          MM", "                                                                                                                          M"],
+        "entities": [{
+            "type": "small_brown_key",
+            "x": 111,
+            "y": 95,
+            "invisible": true
+        }, {
+            "type": "red_bug",
+            "x": 145,
+            "y": 132,
+            "data": {
+                "vol": "'"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 156,
+            "y": 132,
+            "data": {
+                "vol": "'"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 154,
+            "y": 134,
+            "data": {
+                "vol": "'"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 159,
+            "y": 133,
+            "data": {
+                "vol": "'"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 159,
+            "y": 132,
+            "data": {
+                "vol": "A"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 156,
+            "y": 133,
+            "data": {
+                "vol": "A"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 163,
+            "y": 133,
+            "data": {
+                "vol": "A"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 147,
+            "y": 132,
+            "data": {
+                "vol": "d"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 145,
+            "y": 135,
+            "data": {
+                "vol": "d"
+            }
+        }, {
+            "type": "keyboard_key",
+            "x": 156,
+            "y": 136,
+            "character": "m",
+            "invisible": true
+        }, {
+            "type": "red_bug",
+            "x": 151,
+            "y": 136,
+            "data": {
+                "vol": "A"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 165,
+            "y": 136,
+            "data": {
+                "vol": "A"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 147,
+            "y": 135,
+            "data": {
+                "vol": "A"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 144,
+            "y": 134,
+            "data": {
+                "vol": "A"
+            }
+        }, {
+            "type": "red_bug",
+            "x": 155,
+            "y": 136,
+            "data": {
+                "vol": "d"
+            }
+        }, {
+            "type": "star_key",
+            "x": 73,
+            "y": 137,
+            "invisible": true
+        }, {
+            "type": "chest",
+            "x": 122,
+            "y": 162,
+            "invisible": true
+        }, {
+            "type": "keyboard_key",
+            "x": 122,
+            "y": 162,
+            "character": "u",
+            "invisible": true
+        }, {
+            "type": "north_east_roof",
+            "x": 66,
+            "y": 56,
+            "invisible": false
+        }, {
+            "type": "north_roof",
+            "x": 63,
+            "y": 56,
+            "invisible": false
+        }, {
+            "type": "north_roof",
+            "x": 64,
+            "y": 56,
+            "invisible": false
+        }, {
+            "type": "north_west_roof",
+            "x": 60,
+            "y": 56,
+            "invisible": false
+        }, {
+            "type": "north_roof",
+            "x": 62,
+            "y": 56,
+            "invisible": false
+        }, {
+            "type": "north_roof",
+            "x": 61,
+            "y": 56,
+            "invisible": false
+        }, {
+            "type": "west_roof",
+            "x": 60,
+            "y": 57,
+            "invisible": false
+        }, {
+            "type": "west_roof",
+            "x": 60,
+            "y": 58,
+            "invisible": false
+        }, {
+            "type": "west_roof",
+            "x": 60,
+            "y": 59,
+            "invisible": false
+        }, {
+            "type": "east_roof",
+            "x": 66,
+            "y": 57,
+            "invisible": false
+        }, {
+            "type": "south_west_roof",
+            "x": 60,
+            "y": 60,
+            "invisible": false
+        }, {
+            "type": "south_roof",
+            "x": 61,
+            "y": 59,
+            "invisible": false
+        }, {
+            "type": "south_roof",
+            "x": 63,
+            "y": 57,
+            "invisible": false
+        }, {
+            "type": "south_roof",
+            "x": 61,
+            "y": 57,
+            "invisible": false
+        }, {
+            "type": "south_roof",
+            "x": 61,
+            "y": 58,
+            "invisible": false
+        }, {
+            "type": "south_roof",
+            "x": 62,
+            "y": 57,
+            "invisible": false
+        }, {
+            "type": "south_roof",
+            "x": 62,
+            "y": 58,
+            "invisible": false
+        }, {
+            "type": "south_roof",
+            "x": 62,
+            "y": 59,
+            "invisible": false
+        }, {
+            "type": "south_roof",
+            "x": 61,
+            "y": 60,
+            "invisible": false
+        }, {
+            "type": "south_roof",
+            "x": 62,
+            "y": 60,
+            "invisible": false
+        }, {
+            "type": "south_roof",
+            "x": 63,
+            "y": 58,
+            "invisible": false
+        }, {
+            "type": "south_roof",
+            "x": 64,
+            "y": 57,
+            "invisible": false
+        }, {
+            "type": "south_roof",
+            "x": 64,
+            "y": 58,
+            "invisible": false
+        }, {
+            "type": "blue_door",
+            "x": 63,
+            "y": 60,
+            "invisible": false
+        }, {
+            "type": "south_roof",
+            "x": 63,
+            "y": 59,
+            "invisible": false
+        }, {
+            "type": "south_roof",
+            "x": 63,
+            "y": 60,
+            "invisible": false
+        }, {
+            "type": "south_roof",
+            "x": 65,
+            "y": 57,
+            "invisible": false
+        }, {
+            "type": "keyboard_key",
+            "x": 49,
+            "y": 54,
+            "character": "'",
+            "invisible": true
+        }, {
+            "type": "north_roof",
+            "x": 65,
+            "y": 56,
+            "invisible": false
+        }, {
+            "type": "keyboard_key",
+            "x": 37,
+            "y": 15,
+            "character": "CTRL-R",
+            "invisible": true
+        }],
+        "textareas": [{
+            "x": 33,
+            "y": 12,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "^mWRun you ^*0..no-good, irritating,\nannoying, dumb, stupid and\never un^clever boy...\nand remember^*0.. once there was\na cursor who poked his dark\nblinking nose where it really\ndidn't belong^^mx."
+        }, {
+            "x": 109,
+            "y": 60,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "^+152.Always look on the\nbright side of life...\nand store important\nstuff where you won't\nforget (so don't use \nnumbered registers,\nyou have only 10\nof them).\nReminder to self:\nAfter a characterwise yank\ncommand (including all text\nobject yanks), the cursor\nis put on the first yanked\ncharacter that is closest\nto the start of the buffer.^\n \nYou can't ^mUundo the past\nbut you can certainly\nnot repeat it.\n(But in VIM you can!)",
+            "undos": ["{\"undo\":{\"x\":0,\"y\":1,\"ay\":2,\"command\":\"o\",\"params\":\"B|i|g| |B|u|g| |d|r|a|i|n|s| |l|i|f|e| |t|o|REPLAY_ENTER|r|e|s|t|o|r|e| |h|i|s| |o|w|n| |h|e|a|l|t|h|REPLAY_ENTER|u|p|o|n| |t|o|u|c|h|!|REPLAY_ENTER|U|s|i|n|g| |a| |c|o|u|n|t| |p|r|e|f|i|x| |c|a|n|REPLAY_ENTER|h|e|l|p| |a|v|o|i|d|i|n|g| |h|i|m|.|ESC\"},\"redo\":{\"x\":0,\"y\":2,\"command\":\"5dd\"}}", "{\"undo\":{\"x\":0,\"y\":1,\"command\":\"cw\",\"params\":\"N|o|t|e|ESC\"},\"redo\":{\"x\":0,\"y\":1,\"command\":\"cw\",\"params\":\"R|e|m|i|n|d|e|r|ESC\"}}", "{\"undo\":{\"x\":0,\"y\":2,\"command\":\"2dd\"},\"redo\":{\"x\":0,\"y\":1,\"command\":\"A\",\"params\":\"REPLAY_ENTER|A|f|t|e|r| |a| |c|h|a|r|a|c|t|e|r|w|i|s|e| |y|a|n|k|REPLAY_ENTER|c|o|m|m|a|n|d| |t|h|e| |c|u|r|s|o|r|ESC\"}}", "{\"undo\":{\"x\":8,\"y\":3,\"ax\":8,\"ay\":3,\"command\":\"3C\",\"params\":\"t|h|e| |c|u|r|s|o|r|ESC\"},\"redo\":{\"x\":8,\"y\":3,\"command\":\"C\",\"params\":\"(|i|n|c|l|u|d|i|n|g| |a|l|l| |t|e|x|t|REPLAY_ENTER|o|b|j|e|c|t| |y|a|n|k|s|)|,| |t|h|e| |c|u|r|s|o|r|REPLAY_ENTER|i|s| |p|u|t| |o|n| |t|h|e| |1|s|t| |y|a|n|k|e|d|ESC\"}}", "{\"undo\":{\"x\":14,\"y\":5,\"command\":\"3C\",\"params\":\"1|s|t| |y|a|n|k|e|d|ESC\"},\"redo\":{\"x\":14,\"y\":5,\"command\":\"C\",\"params\":\"f|i|r|s|t| |y|a|n|k|e|d|REPLAY_ENTER|c|h|a|r|a|c|t|e|r| |t|h|a|t| |i|s| |c|l|o|s|e|s|t|REPLAY_ENTER|t|o| |t|h|e| |e|n|d| |o|f| |t|h|e|ESC\"}}", "{\"undo\":{\"x\":7,\"y\":7,\"command\":\"C\",\"params\":\"e|n|d| |o|f|ESC\"},\"redo\":{\"x\":7,\"y\":7,\"command\":\"C\",\"params\":\"s|t|a|r|t| |o|f| |t|h|e| |b|u|f|f|e|r|.|ESC\"}}"],
+            "undoRedos": [],
+            "redos": ["{\"redo\":{\"x\":3,\"y\":1,\"command\":\"7C\",\"params\":\"e|m|ber:|REPLAY_ENTER|T|h|e| |b|u|g|s| |d|i|s|g|u|i|s|e|d| |a|s|REPLAY_ENTER|c|u|r|s|o|r|s| |a|r|e| |v|u|l|n|e|r|a|b|l|e| |t|o|REPLAY_ENTER|t|h|e| |w|o|r|d|s|:| |'|U|g|a|n|d|a|'|,| |'|B|r|a|m|'|,|REPLAY_ENTER|a|n|d| |'|C|h|a|r|i|t|y|'|.|ESC\"},\"undo\":{\"x\":3,\"y\":1,\"command\":\"5C\",\"params\":\"|i|n|d|e|r| | t|o| |s|e|l|f|:|REPLAY_ENTER|A|f|t|e|r| |a| |c|h|a|r|a|c|t|e|r|w|i|s|e| |y|a|n|k|REPLAY_ENTER|c|o|m|m|a|n|d| |(|i|n|c|l|u|d|i|n|g| |a|l|l| |t|e|x|t|REPLAY_ENTER|o|b|j|e|c|t| |y|a|n|k|s|)|,| |t|h|e| |c|u|r|s|o|r|REPLAY_ENTER|i|s| |p|u|t| |o|n| |t|h|e| |f|i|r|s|t| |y|a|n|k|e|d|REPLAY_ENTER|c|h|a|r|a|c|t|e|r| |t|h|a|t| |i|s| |c|l|o|s|e|s|t|REPLAY_ENTER|t|o| |t|h|e| |s|t|a|r|t| |o|f| |t|h|e| |b|u|f|f|e|r|.|ESC\"}}"]
+        }, {
+            "x": 111,
+            "y": 91,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "^mTBig ^mbBug\nm^mjess\n^mhNOT\n^muwith\nund^moo\ns^mwhou^myld\n^mddo\nunder^mggro^mnund\ncurs^mcors\nbe^mtat\npo^mdwer\nfri^mPen^mids!\n^mathe\n^mksky\nar^mee\nT^mahe\n^mlof\n^mswil^mrl"
+        }, {
+            "x": 193,
+            "y": 8,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "Got\n what\n  you\n   came\n    for ^mY "
+        }, {
+            "x": 123,
+            "y": 10,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "  Toadstool\n(Peach is also\ninteresting...)"
+        }, {
+            "x": 141,
+            "y": 132,
+            "limit": 9,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "Making your m^mAark on the\nworld is hard. If it were\neasy, everybody would\ndo it. But it's not. It\nonly takes the m command!"
+        }, {
+            "x": 67,
+            "y": 131,
+            "limit": 31,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "1 Cinnamon stick\n4 Leaves^oM of Mint\n1 Human Skull (pressed)\n1 squirt Squid ink\n2 pts Monkey Blood\n^_D3^oo o^_tz^_h.^_e Brimstone\n1 Live Chicken\n1^mn^on or more^mk^ok of the following:\n \npyridoxine hydrochloride,\nzinc oxide, yellow eight,\nmine mononitrate and BHA.\n \nLet bubble^oe over low flame\nuntil thickened.\nServes crew^oy of four."
+        }, {
+            "x": 114,
+            "y": 155,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "                 \n        ^oii        \n                 \n                 \n                 \n                 \n                 \n ^oBB      x      ^ogg \n                 \n                 \n                 \n                 \n                 \n        ^ouu        \n                 ",
+            "bossMode": true
+        }, {
+            "x": 36,
+            "y": 52,
+            "limit": 15,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "backtick can be very us^mHeful\n^_awh^_ben^_c t^_dhe^_e t^_fri^_gp ^_his^_i u^_jne^_kve^_lnt^_mfu^_nl\nbut if danger's creeping near\nt^_oo ^_pth^_qe ^_rfi^_srs^_tt ^_uno^_vn-^_wsp^_xac^_ye ^_zmy dea^n1r^!"
+        }]
+    }, {
+        "buffer": "underground",
+        "levelNumber": 14,
+        "addX": 400,
+        "addY": 370,
+        "cursorX": 12,
+        "cursorY": 49,
+        "bg": ["MMMMMMMMMMMMMMllMlMMlllMMMlllMMlllMMMMlMMMMMMMMllllMlllMMMMMMM", "llllMMMMMMllllMMlMllMllMMMlMlMllMMMMMMllllMMMMllMMMllMMMMMMMMM", "lMMMlMMMMllllMMMMlMMllMlMMlMMllllMMMMMMlMlMMMMlMMMlllMMMMMMMMM", "MMMMMlMMllMllMMMMllllMMlMMMlMMlMllMMMMMlllMMMlMMMMllMllMMMMMMl", "lMMMMMlllMlllllMMMlllllllMllMMlMllMMMMllMllMMllMlllMMMlllMMMll", "lMMMMMllMMlMMMllMMMlllllllMMMMllMlMMMlMlllllllllllMMMMMMllMllM", "lMMMMMlMMMlMMMMllMMlMlMllllMMMllMllMllMllMMllllllMMMMMMMMlllMM", "MlMMMllMMMllMMMllMlMMllllMllMMlMMMMllMMlMlMMllMMMMMMMMMMMllMMM", "MlMMllMMMlllMMlllMlMMMMlMMllMlMlMMMllMMMMlMMMMllMMMMMMMMMlMMMM", "MlMlMMMMMlMMlllMlllMMMMMlllllMMMlMMllMMllllMMMMMlMMMMMMMMlMMMM", "MlMlllllllMMllMMMMllllllllllMMMMlllMlMMMlMlMMMMMllMMMMMMMlMMMM", "MllMMMMMlMlllllMMMMllMMMlllMMMMllMMMlMMllllMMMMllllllllMlMMMMM", "MllMMMMlMMMMlMlMMMlllMllMMMMMMllllMMMlMMMllMMlllMMllMMllllMMMM", "MlMMMMlMMMMMMlMMMlMllMlMMMMMllMMllMMlllllMlMllMMMMMlMMMMMllMMM", "MlMMllMMMMlllllMlMMllllMMMlllMMllllllMMMlMlllMMMMMlMMMMMMMlMMM", "lllllMMMMMlMMMllMMMMllMMMMlllMMMMllMMMMMllMlMMMMllMMMMMMMMMlll", "lMlMMMMMMlMMMllllMMlllMMMMlMlllllllllMllMlMlMMMMllMMMMMMMMMMMM", "MllMMMMMMlMMMMMllMMMMMlMMllMMllMlMMMlllllllMMMMllMMMMMMMMMMMMM", "MMlMMMMMlMMMMMMMlllMMMllllMMMlllMMMMllMMlMllMMlMllMMMMMMMMMMMM", "MMMllMMllMMMMMMMMMlMllllMMMMMlMllMMMlMMMMMMlllMMllllllMMMMMMMl", "MMMMllMMllMMMMMMMMMllMMMMMMMllMMllMMlMMMMMMllMMMMllMMllMMMMMll", "MMMMMlMlMlMMMMMMMMMlllMMMMMllMMMMllllMMMMMMllMMMMlMMMllMMMMllM", "MMMMMllMMllMMMMMMMMlMllMMMMlMMMMMMllllMMMMMllMMMlMMMMlMMllllMM", "MMMMMllMMMMllllMMlllMMlllMMllMMMMMlMlllMMMMMllMMlMMMMlMMlMMMMM", "MMMMMlMMMMMMMMlMlMMMMMMllMMlMllllllMMMlMMMMMMMllMMMMMlMllMMMMM", "MMMlllMMMMMMMMMllMMMMMMMlMllMMlMMllMMMllMMMMMlMMlMMMMlllMMMMMM", "MMMlMMMMMMMMMlllMMMMMMMMlMlMMMMMMMMlMMllllMMlMMMlMMMMMlMMMMMMM", "lMMlMMMMMMMMllllMMMMMMMMllMMMMMMMMMlMMllMlllMMMMllMMMMllMMMMMM", "llllMMMMMMMllMMllMMMMMMMMllMMMMMMMllMMllMMllMMMMMlMMMMllMMMMMM", "MllMMMMMMMllMMMMlMMMMMMMMMlMMMMMMMlMMMllMMlMlMMMMlMMMMlMMMMMMM", " M        l     ll       ll       l   l ll M l  ll  lll", "      llll       l       lll     ll   llll M  l  ll l", "      l   l     lllllll  l lll   llllllllllM   ll  ll", "     ll   l    ll     llll   l  lll       lMl      ll", "     l    llllll  lll  l     llllll     lllMl       lll     l", "  llll   l l     ll lllll    l llllllll l lMll       lll    l", "  l lMM ll  l    l  ll  l    llllll   lll  MMll      l llll l", " llMl MMl   ll  lllll   l   l l lll    l  MMM lll    l    lll", " lM lllMM M llllll     l   l  l  l     ll MMMlll     l     ll", " lM   llllM  lll  l   ll  ll l  l l     llMMM  lll   l      l", " lM     MlMMMMl M ll ll   l  l  l l   M lMMMM  l     l      l", " lM     llMMMllMM  llll  l+++ll ll l  MMlMMMM l      l     ll", "  ll    lMMMllMMMlll  l  l+++ l llllllllMMMMMll     ll     ll", "  Ml    lMMMlMMMMl    l +M+++ + llll   MllMMll      l   l  l", "  M l   l MlMMMMM   llll MMMMlllllllll MMlllll     ll  ll ll", "  M l  MMlMlMMMMMl       M+M+ll ll MllllMMllMM    ll   lllll", "   MMMM  lllM+MMMMllllllllllll  l lllllM+llMMMll l     lll l", "    l    lMlM MMM ll    ll      lll llll lMMMM lll     ll", "    llllllM+++l+lllll  l l    M ll   l+l+++MlMll llllllll", "  llllll ll+++lll      llll     ll   lll+++lll l   llllll", "  ll    lll+++l+l   lllll  l   ll     +l+++l M ll  l  lllll", "ll l    l l   l M   lll  l  lllllllllllllllMM  ll  l      l", "l  l   l  llM+MMM llll    l   ll l l l l+MM M  l    l l   l", "l  l  l   MMl MMM l l      lllll   ll  MllMMM l     l  ll l", "l  l  l   MMMlMM  l l M   +M+ l   llll MMMMMM l     l l l l", "llll  l   MMMllM  l l M    M      lllM MMMMMMll      lllll", "  ll   l  MMMMlllll l   + +++ +lllMMlllMMMMMll       lll", "  ll   ll MMMMMlllllll  ll+++lllllll llMMMMll    ll  lll", "  Ml    l MMMMMM    l llll+++ll ll l lllMMMlll  lll   lllll", " MMl     lMllMMMM   l   M l   lll    lMllMMlll  l  l  l   l", " MMM  llll  l lMMll l     l   ll      llllllMllll  l ll   l", " Ml   lllllll  Ml l lllllll     ll    l MMlMM lll  l l     l", " llllll   lll  Ml llll         l  ll ll Ml  M l llll l      l", "ll    l      llMlllll          l   lll lll    l    lll      l", " ll   l lllllllMMl  l   lll   llllll     l   ll    ll   lll  l", " Mll  l l   lllMMlllll  l lllll llll ll   ll l    lllllll  l l", " M lll  l   ll MMM  l l l  ll   llllll  ll lll    l     l   ll", " M  llll  ll l M  l l  ll   ll  ll     ll llll llll     l", " M   l lll   lMM    l lll    ll llllllllllllll l  ll    l", " M  l        lMM    l l l     lllll          l  ll l    ll", "  l l        llM     ll llll   l       llll  l ll ll     ll", "  ll  ll      lM     lllll ll   llMll l    l l l  ll      l", "llll  l ll    lM ll   ll    l   llMllllll  l ll  lll     ll", "l l   l   ll  ll ll  ll      l  lMMll       lllllll     llll", "llllll l   ll  l llll l      l  MMMll           l     lll Ml", "  ll lll     l llll   l      l  MMlllllll     lll    ll   M l", "  l   llllllllll lll  l    lll             lll   ll l     M  l", " llll lllllll ll l l   llllll   lllll llllll lll llll     M  l", " l  l llll   l lll  l  ll l ll  lllllll    lll  l l l     M  l", "  l lll ll    lll      l ll  ll MMll       l    ll  llll  M ll", "  l  llll       lllll  l l    l lMllll lll l   llll     l M l", "  l  ll  l     ll   llllll     llMMllll  lll  l         l Ml", "        lllll  ll    llll  l   lllMMlllll ll ll l        ll", "       ll    ll l       l  ll  llllMlllll llll llll     lll", "      l        l l   l  ll lll             ll  l lll   l  M", "    ll l        ll  lllllllll l  l  llll  lll ll   ll l   M", "   ll   ll       lll       ll  llllll llllllll l    l l", "   l      lllllllll   ll   ll    l ll  llllll  l   lll", "   l  lll  ll      lllllll ll llll  llll ll l  l   ll", "  ll l l   l   lllll l l l ll  lllllll ll   l  l", "  ll lll  l    l   l l l lll lllll   llll    l l", "    lll ll     l   ll l   ll         ll      ll", "   ll    ll    ll  l      ll         l", "  l l     l          l    ll", "   lll        l      l    ll", "             l            ll", "             l"],
+        "entities": [],
+        "textareas": [{
+            "x": 11,
+            "y": 41,
+            "limit": 0,
+            "shouldClean": " ",
+            "alwaysSink": false,
+            "text": "                                \n                ^hoii               \n                                \n                                \n                                \n                                \n                                \n                                \n ^hoBB                            ^hogg \n                                \n                                \n                                \n                                \n                                \n                                \n                                \n                ^houu               \n                                ",
+            "bossMode": true
+        }]
+    }]
+}
